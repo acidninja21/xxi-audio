@@ -1,0 +1,1578 @@
+{
+ "updated": "2026-11-19T16:30:00+08:00",
+ "updated_label": "19 Nov, 4:30pm",
+ "sources": [
+  "Tokchart (AU, US, CA, Global songs & sounds, 17–19 Nov)",
+  "Soundcharts Global TikTok chart (week of 18 Nov)",
+  "Metricool (16 Nov)",
+  "SocialPilot (17–25 Nov)",
+  "NewEngen (30 Oct–5 Nov)",
+  "Revid (18 Nov)"
+ ],
+ "tracks": [
+  {
+   "t": "My Moon My Man",
+   "a": "FINNEAS",
+   "s": "Indie / Acoustic",
+   "src": "Global sound #1 · US #2",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Dreamy, tender Feist cover.",
+   "idea": "Tease something new (a client win, a car part, a new service) and reveal it on the chorus.",
+   "stat": "~130K new videos a day",
+   "hot": 1,
+   "trend": "“My Moon My Man” soft launch: show a glimpse, reveal on the chorus."
+  },
+  {
+   "t": "Housewife",
+   "a": "Tate McRae",
+   "s": "Pop",
+   "src": "AU #2 · US #4 · CA #4",
+   "moods": [
+    "hype",
+    "playful",
+    "luxury"
+   ],
+   "e": 5,
+   "vibe": "Bold, glam, main-character pop.",
+   "idea": "Outfit or setup transformation. Cut every change on the beat.",
+   "stat": "~47K new videos a day",
+   "hot": 1,
+   "trend": "POV lip-syncs and glow-up transformations."
+  },
+  {
+   "t": "Time",
+   "a": "Pink Floyd",
+   "s": "Rock",
+   "src": "AU #1 · US #1 · CA #1",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "Ticking clocks, slow cinematic build.",
+   "idea": "Recreate an old photo of you in the same spot, cut between then and now.",
+   "stat": "~38K new videos a day",
+   "hot": 1,
+   "trend": "“Same Spot, Years Apart”: then vs now in the same location."
+  },
+  {
+   "t": "Rechazame",
+   "a": "Prince Royce",
+   "s": "Latin",
+   "src": "Global songs #1 · US #8 · CA #5",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Smooth bachata groove.",
+   "idea": "Comedy skit: 'when the client says…' using the lyric clip.",
+   "stat": "~46K a day · up 30%",
+   "hot": 1,
+   "trend": "Lyric-clip comedy skits."
+  },
+  {
+   "t": "All I Want for Christmas Is You",
+   "a": "Mariah Carey",
+   "s": "Christmas",
+   "src": "Global #7 · US #3 · CA #6",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "The Christmas kickoff anthem.",
+   "idea": "December kickoff: decorating the shop or desk, gift-guide videos.",
+   "stat": "~47K new videos a day",
+   "hot": 1,
+   "trend": "Brands' holiday gift guides."
+  },
+  {
+   "t": "Last Christmas",
+   "a": "Wham!",
+   "s": "Christmas",
+   "src": "CA #3 · Global #9 · US #7",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 3,
+   "vibe": "Nostalgic Christmas pop.",
+   "idea": "Year-in-review recap of your wins.",
+   "stat": "~45K new videos a day",
+   "hot": 1
+  },
+  {
+   "t": "Dilruba Dilnasheen",
+   "a": "Siddhant Kaushal, Rito Riba",
+   "s": "World",
+   "src": "Global #4 · AU #3",
+   "moods": [
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Romantic South Asian pop.",
+   "idea": "Couple or friendship montage, slow-mo moments.",
+   "stat": "~45K new videos a day",
+   "hot": 1
+  },
+  {
+   "t": "Bonito, Bonito",
+   "a": "Thiago Navarro Music",
+   "s": "Latin",
+   "src": "Global #3",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Upbeat Spanish pop, rising fast.",
+   "idea": "Get in early: 'rate my setup' or a quick before/after.",
+   "stat": "~43K a day · up 79%",
+   "hot": 1
+  },
+  {
+   "t": "Vibin",
+   "a": "Wxoda",
+   "s": "Hip-Hop / Rap",
+   "src": "US #9 · US sounds #9",
+   "moods": [
+    "chill",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Easy-going hip-hop beat.",
+   "idea": "Casual day-in-the-life, walk-and-talk clips.",
+   "stat": "~44K a day · 700K videos",
+   "hot": 1
+  },
+  {
+   "t": "Futile Devices (Orchestral Version)",
+   "a": "Adonai Michel",
+   "s": "Piano / Cinematic",
+   "src": "US #6",
+   "moods": [
+    "sad",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Sweeping, emotional orchestral.",
+   "idea": "Text-over-video: 'things I'd tell myself a year ago'.",
+   "stat": "~42K new videos a day",
+   "hot": 1
+  },
+  {
+   "t": "Paper Moon Static",
+   "a": "Marnie Cusk",
+   "s": "Pop",
+   "src": "US #10 · CA #7 · Revid #1",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Hazy, nostalgic pop.",
+   "idea": "Moody night B-roll with one line of text.",
+   "stat": "1M+ videos",
+   "hot": 1
+  },
+  {
+   "t": "Chopin Nocturne No. 2",
+   "a": "moshimo sound design",
+   "s": "Piano / Cinematic",
+   "src": "US sounds #8",
+   "moods": [
+    "sad",
+    "luxury",
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Classic, elegant piano.",
+   "idea": "Black & gold aesthetic B-roll. Slow pans, a quote on screen.",
+   "stat": "7M videos",
+   "hot": 1
+  },
+  {
+   "t": "Little Things",
+   "a": "Adrián Berenguer",
+   "s": "Piano / Cinematic",
+   "src": "AU sound #6",
+   "moods": [
+    "sad",
+    "motivational",
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Soft, sentimental piano.",
+   "idea": "'Small wins this month' list with text on screen.",
+   "stat": "~100K a day · 10M videos",
+   "hot": 1
+  },
+  {
+   "t": "Montagem da Chupeta",
+   "a": "Lthiago",
+   "s": "Phonk / Funk",
+   "src": "Global sound #2",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "vibe": "Hard-hitting Brazilian funk.",
+   "idea": "Gym or car edit: speed ramps, hard cuts, flash on the drop.",
+   "stat": "1M videos",
+   "hot": 1
+  },
+  {
+   "t": "Strange Bit",
+   "a": "Desi Dude",
+   "s": "Hip-Hop / Rap",
+   "src": "CA #8",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Quirky, bouncy rap beat.",
+   "idea": "Fast funny transitions or reaction clips.",
+   "stat": "~26K new videos a day",
+   "hot": 1
+  },
+  {
+   "t": "Doja",
+   "a": "Central Cee",
+   "s": "Hip-Hop / Rap",
+   "src": "US #5",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "UK drill bounce.",
+   "idea": "Quick-cut flex: fit check, car, results.",
+   "stat": "~14K a day"
+  },
+  {
+   "t": "Pujaan Hatiku",
+   "a": "Jummalik",
+   "s": "World",
+   "src": "Global #2",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Emotional Indonesian ballad.",
+   "idea": "Sunset or beach slow-mo with a reflective line.",
+   "stat": "Up 72% this week"
+  },
+  {
+   "t": "BbY WOW",
+   "a": "Rusowsky, KAROL G, Judeline",
+   "s": "Latin",
+   "src": "Global #6",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Latin urban, catchy hook.",
+   "idea": "Dance or glam reveal. Rising, so get in early.",
+   "stat": "Up 58% this week"
+  },
+  {
+   "t": "NONA KAKA SAYANG",
+   "a": "IKI DANO",
+   "s": "Electronic / House",
+   "src": "Global #8",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Bouncy dance track.",
+   "idea": "Group dance or quick funny transitions.",
+   "stat": "Up 52% this week"
+  },
+  {
+   "t": "Nocturne",
+   "a": "Feinberg",
+   "s": "Piano / Cinematic",
+   "src": "US #2",
+   "moods": [
+    "sad",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Moody soundtrack piano.",
+   "idea": "Late-night work session: laptop glow, quiet grind.",
+   "stat": "~18K a day"
+  },
+  {
+   "t": "Let It Snow! Let It Snow! Let It Snow!",
+   "a": "Dean Martin",
+   "s": "Christmas",
+   "src": "CA #9 · Revid chart",
+   "moods": [
+    "chill",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Cosy vintage crooner.",
+   "idea": "Cosy festive B-roll or a calm 'end of year' reflection.",
+   "stat": "~16K a day"
+  },
+  {
+   "t": "Rockin' Around The Christmas Tree",
+   "a": "Brenda Lee",
+   "s": "Christmas",
+   "src": "CA #2",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Upbeat retro Christmas.",
+   "idea": "Team or shop decorating time-lapse."
+  },
+  {
+   "t": "The Christmas Song",
+   "a": "Nat King Cole Trio",
+   "s": "Christmas",
+   "src": "Revid #5",
+   "moods": [
+    "chill",
+    "romantic",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Warm, classy vintage Christmas.",
+   "idea": "Slow festive aesthetic: lights, coffee, gift wrapping."
+  },
+  {
+   "t": "Underneath the Tree",
+   "a": "Kelly Clarkson",
+   "s": "Christmas",
+   "src": "Revid #10",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 4,
+   "vibe": "Big, joyful Christmas pop.",
+   "idea": "Gift reveal or holiday plans montage."
+  },
+  {
+   "t": "Sleigh Ride",
+   "a": "The Ronettes",
+   "s": "Christmas",
+   "src": "Global chart #58",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Bouncy 60s Christmas.",
+   "idea": "Fun festive transitions."
+  },
+  {
+   "t": "Lucifer's Waltz",
+   "a": "Secession Studios",
+   "s": "Piano / Cinematic",
+   "src": "CA #10",
+   "moods": [
+    "luxury",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Dark, dramatic waltz.",
+   "idea": "Moody dramatic reveal or villain-arc edit.",
+   "stat": "~9K a day"
+  },
+  {
+   "t": "You're Under Arrest",
+   "a": "ILLIT",
+   "s": "K-Pop",
+   "src": "Revid #2 · trend",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Cute, catchy K-pop hook.",
+   "idea": "Do the hook in one take, pass it to a mate or coworker.",
+   "stat": "~110K videos, rising",
+   "trend": "“You're Under Arrest” challenge: perform the hook, pass it on."
+  },
+  {
+   "t": "DEPENDS",
+   "a": "XG",
+   "s": "K-Pop",
+   "src": "AU #4",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Sharp, beat-heavy K-pop.",
+   "idea": "Snappy before/after or setup reveal synced to the beat."
+  },
+  {
+   "t": "PINKY UP",
+   "a": "KATSEYE",
+   "s": "K-Pop",
+   "src": "Revid chart",
+   "moods": [
+    "playful",
+    "hype",
+    "luxury"
+   ],
+   "e": 4,
+   "vibe": "Sassy girl-group pop.",
+   "idea": "'Pinky up' fancy aesthetic: coffee, desk, glam moments."
+  },
+  {
+   "t": "Nicole Kidman",
+   "a": "ADÉLA",
+   "s": "Pop",
+   "src": "AU #8 · Revid #1 (instrumental)",
+   "moods": [
+    "hype",
+    "luxury",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Confident, glam, main-character energy.",
+   "idea": "Dramatic outfit transition or glam brand reveal."
+  },
+  {
+   "t": "Coming Up Roses",
+   "a": "Harry Styles",
+   "s": "Pop",
+   "src": "US sounds #1 (early Nov)",
+   "moods": [
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Sweet, swoony romance.",
+   "idea": "Lyric edit or 'only me and you' montage."
+  },
+  {
+   "t": "Angel Of My Dreams",
+   "a": "JADE",
+   "s": "Pop",
+   "src": "US #4 (early Nov)",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Runway pop.",
+   "idea": "Runway walk-in or product 'turn' reveal.",
+   "trend": "Kylie runway hip-pop-and-turn recreations."
+  },
+  {
+   "t": "Ramalama (Bang Bang)",
+   "a": "Róisín Murphy",
+   "s": "Electronic / House",
+   "src": "US #1 (early Nov)",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Quirky dance-floor bop.",
+   "idea": "Silly dance or chaotic-day montage."
+  },
+  {
+   "t": "Dame Hombro",
+   "a": "Bulin 47",
+   "s": "Latin",
+   "src": "US #7 (early Nov)",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Laid-back shoulder-bounce beat.",
+   "idea": "Quick freestyle bounce with the team or mates.",
+   "trend": "Freestyle shoulder-bounce dance."
+  },
+  {
+   "t": "Pray For Me",
+   "a": "The Weeknd & Kendrick Lamar",
+   "s": "Hip-Hop / Rap",
+   "src": "Trend roundup",
+   "moods": [
+    "motivational",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Cinematic, dramatic.",
+   "idea": "Slow-motion entrance, solo or with the crew.",
+   "trend": "Slow-mo group entrances."
+  },
+  {
+   "t": "The Feeling",
+   "a": "Steve Lacy",
+   "s": "R&B / Soul",
+   "src": "US sounds #4 (early Nov)",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Dreamy, bittersweet R&B.",
+   "idea": "Late-night drive or soft-focus day-in-life."
+  },
+  {
+   "t": "oh yeah?",
+   "a": "Steve Lacy",
+   "s": "R&B / Soul",
+   "src": "AU #5",
+   "moods": [
+    "chill",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Laid-back and cheeky.",
+   "idea": "POV skit or 'things nobody tells you about…'."
+  },
+  {
+   "t": "Man I Need",
+   "a": "Olivia Dean",
+   "s": "R&B / Soul",
+   "src": "AU #9",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 3,
+   "vibe": "Warm, soulful.",
+   "idea": "Cafe B-roll or a slow Sunday reset."
+  },
+  {
+   "t": "What More Can I Say",
+   "a": "Teddy Swims",
+   "s": "R&B / Soul",
+   "src": "Metricool #9 · Global chart #19",
+   "moods": [
+    "sad",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Soulful, bluesy, emotional.",
+   "idea": "Personal story or reflection with captions."
+  },
+  {
+   "t": "Stolen From Each Other",
+   "a": "Nova Charisma",
+   "s": "Indie / Acoustic",
+   "src": "US sounds #3 (early Nov)",
+   "moods": [
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Moody, nostalgic alt-indie.",
+   "idea": "Late-night reflective post or lyric video."
+  },
+  {
+   "t": "Everything Is Embarrassing",
+   "a": "Sky Ferreira",
+   "s": "Indie / Acoustic",
+   "src": "AU #7",
+   "moods": [
+    "sad",
+    "playful"
+   ],
+   "e": 2,
+   "vibe": "Relatable, cringey nostalgia.",
+   "idea": "'My first video vs now' reaction."
+  },
+  {
+   "t": "Choosin' Texas",
+   "a": "Ella Langley",
+   "s": "Country",
+   "src": "AU #10",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Country twang storytelling.",
+   "idea": "Storytime with captions, road-trip clips."
+  },
+  {
+   "t": "No Rush, Just Jazz",
+   "a": "Sepia Lounge",
+   "s": "Jazz / Lounge",
+   "src": "AU #6",
+   "moods": [
+    "luxury",
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Lounge jazz, soft luxury.",
+   "idea": "Workspace, coffee, 'planning my week' aesthetic."
+  },
+  {
+   "t": "Sunset in Girona",
+   "a": "Noah Preminger & Max Light",
+   "s": "Jazz / Lounge",
+   "src": "Metricool #1",
+   "moods": [
+    "romantic",
+    "chill",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Smooth, cosy jazz.",
+   "idea": "Travel or lifestyle clips. Suits black & gold."
+  },
+  {
+   "t": "Self Aware",
+   "a": "Mark Allan Wolfe",
+   "s": "Piano / Cinematic",
+   "src": "Metricool #2",
+   "moods": [
+    "luxury",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Hypnotic, mysterious instrumental.",
+   "idea": "Room or desk makeover, night vlog."
+  },
+  {
+   "t": "Time Back",
+   "a": "Sinny & 7vvch",
+   "s": "Electronic / House",
+   "src": "Metricool #3",
+   "moods": [
+    "motivational",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Slow-building atmospheric techno.",
+   "idea": "Build-up then reveal: launch, transformation, results."
+  },
+  {
+   "t": "Take Me (To The Moon)",
+   "a": "Ian Asher & D A N N Y",
+   "s": "Electronic / House",
+   "src": "Metricool #4",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Energetic EDM.",
+   "idea": "Fast transitions or light-show edits."
+  },
+  {
+   "t": "Final Game Showdown",
+   "a": "ProdByLucK",
+   "s": "Piano / Cinematic",
+   "src": "Metricool #5",
+   "moods": [
+    "motivational",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Suspense, last-second tension.",
+   "idea": "Dramatic comeback: 'Day 1 vs Day 31'."
+  },
+  {
+   "t": "Le Sable & Les Vagues",
+   "a": "Tengo John",
+   "s": "Hip-Hop / Rap",
+   "src": "Metricool #6",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 2,
+   "vibe": "Mellow French hip-hop.",
+   "idea": "Scenic views, beach or travel edits."
+  },
+  {
+   "t": "Take Me Down",
+   "a": "LEL",
+   "s": "Electronic / House",
+   "src": "Metricool #7",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 3,
+   "vibe": "Dreamy house-pop.",
+   "idea": "Travel and aesthetic edits."
+  },
+  {
+   "t": "Too Self Aware",
+   "a": "Star Slinger",
+   "s": "Electronic / House",
+   "src": "Metricool #8",
+   "moods": [
+    "chill",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Laid-back house/garage.",
+   "idea": "Outfit reveals or light funny clips."
+  },
+  {
+   "t": "V-Cut",
+   "a": "Ghetto Baby Boom",
+   "s": "Hip-Hop / Rap",
+   "src": "Metricool #10",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Raw underground rap.",
+   "idea": "Hard-cut gym or car edit."
+  },
+  {
+   "t": "Those Eyes (Sped Up)",
+   "a": "New West",
+   "s": "Slowed & Sped up",
+   "src": "Global sound #9",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Sped-up love song.",
+   "idea": "Memory montage or 'someone who…' text overlay."
+  },
+  {
+   "t": "Stargazing (Slowed)",
+   "a": "Marcelo De Carvalho",
+   "s": "Slowed & Sped up",
+   "src": "Revid chart",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "vibe": "Slowed, floaty.",
+   "idea": "Night-sky or night-drive B-roll.",
+   "stat": "4.2M plays"
+  },
+  {
+   "t": "Aura Farming (Slowed)",
+   "a": "Mustafa Saboori",
+   "s": "Slowed & Sped up",
+   "src": "Revid chart",
+   "moods": [
+    "luxury",
+    "motivational"
+   ],
+   "e": 2,
+   "vibe": "Cool, calm 'aura' edit sound.",
+   "idea": "Effortless-cool edit: no talking, just presence."
+  },
+  {
+   "t": "you (super slowed)",
+   "a": "d2s1",
+   "s": "Slowed & Sped up",
+   "src": "Revid chart",
+   "moods": [
+    "sad",
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Super slowed, heavy feels.",
+   "idea": "Late-night thoughts text post."
+  },
+  {
+   "t": "Saxophones getting louder (Sped Up)",
+   "a": "AntonioVivald",
+   "s": "Slowed & Sped up",
+   "src": "Revid chart",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Building, comedic sax.",
+   "idea": "Escalating chaos: 'my to-do list as the day goes on'."
+  },
+  {
+   "t": "QUIERES SER EDITOR (Slowed)",
+   "a": "Launch13",
+   "s": "Slowed & Sped up",
+   "src": "Global chart #44",
+   "moods": [
+    "luxury",
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Moody editor sound.",
+   "idea": "Show off an edit: raw clip vs finished edit."
+  },
+  {
+   "t": "Severina (Racing Remix)",
+   "a": "Italiana",
+   "s": "Phonk / Funk",
+   "src": "Global sound #6",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Fast racing remix.",
+   "idea": "Car edit with speed ramps. Get in early.",
+   "stat": "Up 23% this week"
+  },
+  {
+   "t": "Dixie (PHONK)",
+   "a": "K7K7",
+   "s": "Phonk / Funk",
+   "src": "Revid chart",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "vibe": "Dark, heavy phonk.",
+   "idea": "Gym PR or car night-shot edit."
+  },
+  {
+   "t": "BLUE WATER CANDY",
+   "a": "DJ Allanzinho JP",
+   "s": "Phonk / Funk",
+   "src": "Revid #4",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Brazilian funk energy.",
+   "idea": "Fast-cut summer or pool content.",
+   "stat": "3.5M plays"
+  },
+  {
+   "t": "Socadona (Funk Remix)",
+   "a": "LUDMILLA, DJ Will22",
+   "s": "Phonk / Funk",
+   "src": "Global chart #12",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Brazilian funk party remix.",
+   "idea": "Party or summer hype edit."
+  },
+  {
+   "t": "Vidrado Em Você",
+   "a": "Dj Guuga & Mc Livinho",
+   "s": "Phonk / Funk",
+   "src": "Global chart #5",
+   "moods": [
+    "romantic",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Brazilian funk love song.",
+   "idea": "Couple edit or summer montage."
+  },
+  {
+   "t": "Let Go",
+   "a": "Ark Patrol",
+   "s": "Electronic / House",
+   "src": "Revid chart",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Floaty, feel-good electronic.",
+   "idea": "Sunset drive or beach day."
+  },
+  {
+   "t": "Living in the Dark (Evil Larry Version)",
+   "a": "Myuu",
+   "s": "Piano / Cinematic",
+   "src": "US sounds #7",
+   "moods": [
+    "sad",
+    "playful"
+   ],
+   "e": 2,
+   "vibe": "Creepy piano with a meme twist.",
+   "idea": "Dramatic 'villain' reveal or spooky joke.",
+   "stat": "25K videos"
+  },
+  {
+   "t": "The Blue Danube",
+   "a": "Johann Strauss II (Alessandro Vieri)",
+   "s": "Piano / Cinematic",
+   "src": "US sounds #10",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 2,
+   "vibe": "Grand classical waltz.",
+   "idea": "Satisfying slow-mo or ironic 'elegant' fail.",
+   "stat": "303K videos"
+  },
+  {
+   "t": "Gangsta's Paradise",
+   "a": "Coolio & L.V.",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #9",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "Dark 90s classic.",
+   "idea": "Moody slow-mo walk or serious-face edit."
+  },
+  {
+   "t": "Ojitos Lindos",
+   "a": "Bad Bunny & Bomba Estéreo",
+   "s": "Latin",
+   "src": "Global chart #6",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Soft, dreamy reggaeton.",
+   "idea": "Romantic or travel montage."
+  },
+  {
+   "t": "Tu jueguito",
+   "a": "Aventura",
+   "s": "Latin",
+   "src": "Global chart #7",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Bachata swagger.",
+   "idea": "Lip-sync or 'when they play games' skit."
+  },
+  {
+   "t": "The Fate of Ophelia",
+   "a": "Taylor Swift",
+   "s": "Pop",
+   "src": "Global chart #15",
+   "moods": [
+    "romantic",
+    "luxury"
+   ],
+   "e": 3,
+   "vibe": "Theatrical Taylor pop.",
+   "idea": "Storytelling edit or dramatic reveal."
+  },
+  {
+   "t": "OK",
+   "a": "Joey Valence & Brae",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #14",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Hyper, old-school rap energy.",
+   "idea": "Fast hype intro or 'let's get to work' clip."
+  },
+  {
+   "t": "The Promise",
+   "a": "When In Rome",
+   "s": "Pop",
+   "src": "Global chart #16",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "80s synth-pop classic.",
+   "idea": "Throwback or 'promise to myself' goals video."
+  },
+  {
+   "t": "Somewhere in Brooklyn",
+   "a": "Bruno Mars",
+   "s": "Pop",
+   "src": "Global chart #17",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Upbeat Bruno storytelling.",
+   "idea": "Storytime of how you met someone or found something."
+  },
+  {
+   "t": "Mooo!",
+   "a": "Doja Cat",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #18",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Silly meme rap.",
+   "idea": "Pure comedy: pets, mates, chaos."
+  },
+  {
+   "t": "Uska Hi Bana",
+   "a": "Arijit Singh",
+   "s": "World",
+   "src": "Global chart #20",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Emotional Bollywood ballad.",
+   "idea": "Heartfelt montage or slow memories."
+  },
+  {
+   "t": "The One That Got Away (Acoustic)",
+   "a": "Katy Perry",
+   "s": "Pop",
+   "src": "Global chart #24",
+   "moods": [
+    "sad",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Stripped-back nostalgia.",
+   "idea": "'What could've been' reflective post."
+  },
+  {
+   "t": "Phantom",
+   "a": "EsDeeKid & Rico Ace",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #25",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "vibe": "UK rap, dark and hard.",
+   "idea": "Gritty gym or street edit."
+  },
+  {
+   "t": "Antes De Los 30",
+   "a": "Morat",
+   "s": "Latin",
+   "src": "Global chart #28",
+   "moods": [
+    "motivational",
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Folk-pop 'before 30' goals.",
+   "idea": "'Things I want to do before 30' list."
+  },
+  {
+   "t": "No Type",
+   "a": "Rae Sremmurd",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #30",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Swaggy 2010s rap.",
+   "idea": "Fit check or 'I don't have a type' skit."
+  },
+  {
+   "t": "Hold My Hand",
+   "a": "Jess Glynne",
+   "s": "Pop",
+   "src": "Global chart #31",
+   "moods": [
+    "romantic",
+    "motivational"
+   ],
+   "e": 4,
+   "vibe": "Uplifting pop anthem.",
+   "idea": "Thank-you post to your crew or clients."
+  },
+  {
+   "t": "La La Lost You (Acoustic)",
+   "a": "NIKI & 88rising",
+   "s": "Indie / Acoustic",
+   "src": "Global chart #33",
+   "moods": [
+    "sad"
+   ],
+   "e": 1,
+   "vibe": "Soft acoustic heartbreak.",
+   "idea": "Quiet emotional story with captions."
+  },
+  {
+   "t": "Complicated",
+   "a": "Avril Lavigne",
+   "s": "Rock",
+   "src": "Global chart #34",
+   "moods": [
+    "playful",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "2000s pop-punk nostalgia.",
+   "idea": "'Why does it have to be so complicated' relatable skit."
+  },
+  {
+   "t": "November Rain",
+   "a": "Guns N' Roses",
+   "s": "Rock",
+   "src": "Global chart #35",
+   "moods": [
+    "sad",
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Epic rock ballad.",
+   "idea": "Dramatic slow-mo or moody rainy-day edit."
+  },
+  {
+   "t": "7 rings",
+   "a": "Ariana Grande",
+   "s": "Pop",
+   "src": "Global chart #40",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Bougie flex pop.",
+   "idea": "'I want it, I got it' wins or haul."
+  },
+  {
+   "t": "On The Floor",
+   "a": "Jennifer Lopez & Pitbull",
+   "s": "Pop",
+   "src": "Global chart #41",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Party throwback.",
+   "idea": "Party or night-out montage."
+  },
+  {
+   "t": "Stuck",
+   "a": "LANY",
+   "s": "Indie / Acoustic",
+   "src": "Global chart #46",
+   "moods": [
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Melancholy indie pop.",
+   "idea": "'Stuck in a loop' relatable post."
+  },
+  {
+   "t": "Alors on Danse",
+   "a": "Stromae",
+   "s": "Electronic / House",
+   "src": "Global chart #48",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Euro-dance classic.",
+   "idea": "Dance it out after a long day."
+  },
+  {
+   "t": "I Get Lonely",
+   "a": "Drake",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #49",
+   "moods": [
+    "sad",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Late-night R&B-rap.",
+   "idea": "Late-night solo drive."
+  },
+  {
+   "t": "Elastic Heart",
+   "a": "Sia",
+   "s": "Pop",
+   "src": "Global chart #50",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "Resilient power-pop.",
+   "idea": "Comeback story: knocked down, got back up."
+  },
+  {
+   "t": "Fire on Fire",
+   "a": "Sam Smith",
+   "s": "Pop",
+   "src": "Global chart #51",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Tender, cinematic ballad.",
+   "idea": "Couple or family montage."
+  },
+  {
+   "t": "Legendary Lovers",
+   "a": "Katy Perry",
+   "s": "Pop",
+   "src": "Global chart #57",
+   "moods": [
+    "romantic",
+    "luxury"
+   ],
+   "e": 3,
+   "vibe": "Mystical pop.",
+   "idea": "Aesthetic glam or couple edit."
+  },
+  {
+   "t": "Iris",
+   "a": "The Goo Goo Dolls",
+   "s": "Rock",
+   "src": "Global chart #60",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "Big 90s rock ballad.",
+   "idea": "Nostalgic memories montage."
+  },
+  {
+   "t": "Sign of the Times",
+   "a": "Harry Styles",
+   "s": "Pop",
+   "src": "Global chart #61",
+   "moods": [
+    "sad",
+    "motivational"
+   ],
+   "e": 2,
+   "vibe": "Epic, emotional ballad.",
+   "idea": "Big-picture reflection or end-of-year post."
+  },
+  {
+   "t": "Runaway",
+   "a": "AURORA",
+   "s": "Indie / Acoustic",
+   "src": "Global chart #62",
+   "moods": [
+    "sad",
+    "luxury"
+   ],
+   "e": 2,
+   "vibe": "Ethereal, haunting.",
+   "idea": "Nature or moody aesthetic edits."
+  },
+  {
+   "t": "Beautiful",
+   "a": "Akon & Colby O'Donis",
+   "s": "R&B / Soul",
+   "src": "Global chart #68",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "2000s R&B throwback.",
+   "idea": "Throwback or compliment-someone post."
+  },
+  {
+   "t": "Good Life",
+   "a": "OneRepublic",
+   "s": "Pop",
+   "src": "Global chart #69",
+   "moods": [
+    "motivational",
+    "chill"
+   ],
+   "e": 3,
+   "vibe": "Feel-good, grateful.",
+   "idea": "Gratitude montage: the good parts of your week."
+  },
+  {
+   "t": "Dancing Shadows",
+   "a": "Purrple Cat",
+   "s": "Jazz / Lounge",
+   "src": "Global chart #73",
+   "moods": [
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Lo-fi chill beat.",
+   "idea": "Study, work or reading session B-roll."
+  },
+  {
+   "t": "Natural Emotions",
+   "a": "Muspace Lofi",
+   "s": "Jazz / Lounge",
+   "src": "Global chart #13",
+   "moods": [
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Lo-fi background vibes.",
+   "idea": "Behind-the-scenes or editing time-lapse."
+  },
+  {
+   "t": "Let Her Go",
+   "a": "Passenger & Ed Sheeran",
+   "s": "Indie / Acoustic",
+   "src": "Global chart #77",
+   "moods": [
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Bittersweet acoustic.",
+   "idea": "'Only know you love it when you let it go' reflection."
+  },
+  {
+   "t": "Starboy",
+   "a": "The Weeknd & Daft Punk",
+   "s": "R&B / Soul",
+   "src": "Global chart #81",
+   "moods": [
+    "luxury",
+    "hype",
+    "motivational"
+   ],
+   "e": 4,
+   "vibe": "Dark, sleek flex.",
+   "idea": "Luxury flex edit: car, fit, workspace."
+  },
+  {
+   "t": "She Will Be Loved",
+   "a": "Maroon 5",
+   "s": "Pop",
+   "src": "Global chart #82",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "2000s love ballad.",
+   "idea": "Throwback romance edit."
+  },
+  {
+   "t": "Criminal",
+   "a": "Britney Spears",
+   "s": "Pop",
+   "src": "Global chart #84",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Cheeky pop.",
+   "idea": "Playful 'bad influence' friend skit."
+  },
+  {
+   "t": "Havana",
+   "a": "Camila Cabello & Young Thug",
+   "s": "Latin",
+   "src": "Global chart #88",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Sultry Latin pop.",
+   "idea": "Travel or summer night edit."
+  },
+  {
+   "t": "No Scrubs",
+   "a": "TLC",
+   "s": "R&B / Soul",
+   "src": "Global chart #90",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "90s R&B attitude.",
+   "idea": "Funny 'red flags' list."
+  },
+  {
+   "t": "Young and Beautiful",
+   "a": "Lana Del Rey",
+   "s": "Indie / Acoustic",
+   "src": "Global chart #93",
+   "moods": [
+    "sad",
+    "luxury",
+    "romantic"
+   ],
+   "e": 1,
+   "vibe": "Lush, cinematic.",
+   "idea": "Golden-hour luxury aesthetic."
+  },
+  {
+   "t": "Kya Baat Ay",
+   "a": "Harrdy Sandhu & Jaani",
+   "s": "World",
+   "src": "Global chart #8",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Punjabi pop bounce.",
+   "idea": "Fun dance or fit check."
+  },
+  {
+   "t": "Guzarish",
+   "a": "Satinder Sartaaj",
+   "s": "World",
+   "src": "Global chart (early Nov)",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Soft Punjabi ballad.",
+   "idea": "Calm, heartfelt montage."
+  },
+  {
+   "t": "Daddy Yo",
+   "a": "Wizkid",
+   "s": "World",
+   "src": "Global chart #55",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Afrobeats groove.",
+   "idea": "Summer vibes or dance clip."
+  },
+  {
+   "t": "Ayah",
+   "a": "Seventeen",
+   "s": "K-Pop",
+   "src": "Global chart #71",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Gentle K-pop.",
+   "idea": "Soft aesthetic edit."
+  },
+  {
+   "t": "Cannonball",
+   "a": "Lithe & Don Toliver",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #67",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 4,
+   "vibe": "Melodic rap energy.",
+   "idea": "Car or gym edit."
+  },
+  {
+   "t": "Drowning",
+   "a": "A Boogie Wit da Hoodie & Kodak Black",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #54",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Bouncy rap hit.",
+   "idea": "Flex or money-motivation edit."
+  },
+  {
+   "t": "Ice on My Baby",
+   "a": "Yung Bleu",
+   "s": "R&B / Soul",
+   "src": "Global chart #37",
+   "moods": [
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Smooth R&B.",
+   "idea": "Couple edit or gift reveal."
+  },
+  {
+   "t": "Love",
+   "a": "Keyshia Cole",
+   "s": "R&B / Soul",
+   "src": "Global chart #43",
+   "moods": [
+    "sad",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Soulful R&B ballad.",
+   "idea": "Emotional storytime."
+  },
+  {
+   "t": "Crazy Story, Pt. 3",
+   "a": "Booka 600 & King Von",
+   "s": "Hip-Hop / Rap",
+   "src": "Global chart #21",
+   "moods": [
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Storytelling drill.",
+   "idea": "Storytime with captions."
+  },
+  {
+   "t": "Free Electric Willy",
+   "a": "Ludvig Faleij",
+   "s": "Electronic / House",
+   "src": "Global chart #32",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Quirky electro.",
+   "idea": "Funny fast-forward or chaos edit."
+  },
+  {
+   "t": "Jingle Bell Rock (Glee Cast Version)",
+   "a": "Glee Cast",
+   "s": "Christmas",
+   "src": "Global chart #75",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Bright festive pop.",
+   "idea": "Upbeat December team content."
+  },
+  {
+   "t": "Happy Birthday",
+   "a": "Stevie Wonder",
+   "s": "R&B / Soul",
+   "src": "Global chart #76",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Party classic.",
+   "idea": "Birthday or celebration post."
+  }
+ ]
+}

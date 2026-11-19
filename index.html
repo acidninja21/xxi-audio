@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="XXI Audio">
+<meta name="theme-color" content="#0A0907">
+<title>XXI fin. — Trending Audio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Mrs+Saint+Delafield&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0907; --gold:#B8862B; --gold-hi:#E2B85A; --cream:#F4EFE6;
+    --muted:rgba(244,239,230,.6); --line:rgba(184,134,43,.32);
+    --top: env(safe-area-inset-top, 0px); --bot: env(safe-area-inset-bottom, 0px);
+    --head: 168px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%;background:var(--bg);color:var(--cream);font-family:Inter,system-ui,sans-serif;overflow:hidden}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(ellipse at 50% 32%,rgba(184,134,43,.13),transparent 60%),
+               radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.78));}
+  .dust{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+  .dust i{position:absolute;width:2px;height:2px;border-radius:50%;background:var(--gold-hi);opacity:0;box-shadow:0 0 6px var(--gold-hi);animation:drift linear infinite}
+  @keyframes drift{0%{transform:translateY(10vh);opacity:0}15%{opacity:.55}85%{opacity:.35}100%{transform:translateY(-110vh);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.dust{display:none}}
+
+  header{position:fixed;top:0;left:0;right:0;z-index:20;padding:calc(var(--top) + 10px) 0 12px;
+    background:linear-gradient(to bottom,rgba(10,9,7,.97) 75%,rgba(10,9,7,0))}
+  .brand{display:flex;align-items:baseline;justify-content:space-between;padding:0 18px 8px}
+  .logo{display:flex;align-items:baseline;gap:4px}
+  .logo .xxi{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:600;font-size:26px;color:var(--gold);letter-spacing:.02em}
+  .logo .fin{font-family:"Mrs Saint Delafield",cursive;font-size:30px;color:var(--cream);line-height:.6}
+  .logo .sub{white-space:nowrap;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-left:10px}
+  .count{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .rowlab{font-size:9px;letter-spacing:.24em;text-transform:uppercase;color:rgba(226,184,90,.75);padding:6px 18px 6px}
+  .chips{display:flex;gap:7px;overflow-x:auto;padding:0 18px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:none;border:1px solid var(--line);background:rgba(184,134,43,.06);color:var(--cream);
+    font:500 12.5px Inter,sans-serif;padding:7px 13px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:.2s}
+  .chip.on{background:var(--gold);border-color:var(--gold);color:#140F06}
+  .chip .e{margin-right:5px}
+
+  main{position:relative;z-index:1;height:100%;overflow-y:auto;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain}
+  main::-webkit-scrollbar{display:none}
+  .card{height:100dvh;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:calc(var(--top) + var(--head)) 22px calc(var(--bot) + 22px);position:relative}
+  .rank{position:absolute;top:calc(var(--top) + var(--head) - 8px);right:14px;font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:500;
+    font-size:120px;line-height:1;color:transparent;-webkit-text-stroke:1px rgba(184,134,43,.32);pointer-events:none}
+  .discwrap{flex:1;display:flex;align-items:center;justify-content:center;min-height:0}
+  .disc{width:min(52vw,220px,26dvh);aspect-ratio:1;border-radius:50%;position:relative;cursor:pointer;
+    background:repeating-radial-gradient(circle,#15120C 0 2px,#0E0C08 2px 4px);border:1px solid var(--line);box-shadow:0 0 60px rgba(184,134,43,.15)}
+  .disc::after{content:"";position:absolute;inset:36%;border-radius:50%;background:radial-gradient(circle,var(--gold-hi),var(--gold));box-shadow:0 0 24px rgba(226,184,90,.35)}
+  .card.active.playing .disc{animation:spin 6s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .pstate{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2;font-size:20px;color:#140F06;pointer-events:none}
+  .meta{margin-top:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+  .badge{display:inline-flex;gap:6px;align-items:center;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-hi)}
+  .badge::before{content:"";width:16px;height:1px;background:var(--gold)}
+  .hot{font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:#140F06;background:var(--gold-hi);padding:3px 8px;border-radius:999px}
+  h2{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:36px;line-height:1.02}
+  .artist{font-size:14px;color:var(--muted);margin-top:4px}
+  .stylel{margin-top:10px;font-size:13px;line-height:1.4;color:var(--cream)}
+  .stylel b{color:var(--gold-hi);font-weight:600}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .tag{font-size:11.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--line)}
+  .tag.s{background:rgba(184,134,43,.16);border-color:rgba(226,184,90,.5)}
+  .row2{display:flex;align-items:center;gap:14px;margin-top:12px}
+  .energy{display:flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .bars{display:flex;gap:3px}
+  .bars span{width:13px;height:4px;border-radius:2px;background:rgba(244,239,230,.15)}
+  .bars span.f{background:linear-gradient(90deg,var(--gold),var(--gold-hi))}
+  .player{flex:1;display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted)}
+  .pbar{flex:1;height:3px;border-radius:2px;background:rgba(244,239,230,.12);overflow:hidden}
+  .pbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-hi))}
+  .ptxt{white-space:nowrap}
+  .idea{margin-top:12px;padding:10px 13px;border-left:2px solid var(--gold);background:rgba(184,134,43,.07);font-size:13px;line-height:1.42}
+  .idea b{display:block;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-hi);margin-bottom:3px;font-weight:600}
+  .actions{display:grid;grid-template-columns:1fr 1fr 1fr 46px;gap:7px;margin-top:12px}
+  .btn{display:flex;align-items:center;justify-content:center;gap:5px;text-decoration:none;font:600 12px Inter,sans-serif;
+    padding:12px 6px;border-radius:12px;border:1px solid var(--line);color:var(--cream);background:rgba(244,239,230,.04);text-align:center}
+  .btn.primary{background:var(--gold);border-color:var(--gold);color:#140F06}
+  .save{cursor:pointer;font-size:19px;line-height:1}
+  .save.on{color:var(--gold-hi);border-color:var(--gold-hi)}
+  .hint{position:absolute;bottom:calc(var(--bot) + 4px);left:0;right:0;text-align:center;font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:rgba(244,239,230,.3)}
+  .end{justify-content:center;text-align:center;align-items:center}
+  .end h2{font-size:32px}
+  .end p{color:var(--muted);font-size:14px;line-height:1.5;margin-top:12px;max-width:320px}
+  .hair{width:80px;height:1px;background:var(--gold);margin:20px auto}
+  .empty{height:100dvh;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 30px;color:var(--muted)}
+  #start{position:fixed;inset:0;z-index:50;background:rgba(10,9,7,.95);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;cursor:pointer}
+  #start .big{font-family:"Cormorant Garamond",serif;font-size:36px;margin-top:22px}
+  #start p{color:var(--muted);font-size:14px;margin-top:10px;line-height:1.5;max-width:300px}
+  #start .go{margin-top:26px;background:var(--gold);color:#140F06;font:600 15px Inter,sans-serif;padding:15px 34px;border-radius:999px}
+  #start.hide{display:none}
+  @media (max-height:720px){.disc{width:min(40vw,17dvh)}.tags .tag{padding:3px 9px}h2{font-size:30px}.idea{font-size:12.5px;padding:8px 11px}.stylel{font-size:12.5px}.rank{font-size:90px}}
+</style>
+</head>
+<body>
+<div class="dust" id="dust"></div>
+<header>
+  <div class="brand">
+    <div class="logo"><span class="xxi">XXI</span><span class="fin">fin.</span><span class="sub">Trending audio</span></div>
+    <div style="text-align:right"><div class="count" id="count"></div><div class="count" id="upd" style="font-size:9.5px;opacity:.7;white-space:nowrap"></div></div>
+  </div>
+  <div class="rowlab">Mood</div>
+  <div class="chips" id="moodChips"></div>
+  <div class="rowlab">Style</div>
+  <div class="chips" id="styleChips"></div>
+</header>
+<main id="feed"></main>
+<audio id="aud" preload="auto" playsinline></audio>
+<div id="start">
+  <div class="logo"><span class="xxi" style="font-size:52px">XXI</span><span class="fin" style="font-size:60px">fin.</span></div>
+  <div class="big">Trending audio</div>
+  <p>Most popular first. Each one plays a 30-sec preview as you swipe. Tap the record to pause.</p>
+  <div class="go">Tap to start 🔊</div>
+</div>
+
+<script>
+const MOODS = [
+  {id:"all",label:"All",e:"✦"},
+  {id:"hot",label:"Hottest",e:"🔥"},
+  {id:"new",label:"New",e:"✨"},
+  {id:"hype",label:"High energy",e:"⚡"},
+  {id:"motivational",label:"Motivational",e:"💪"},
+  {id:"chill",label:"Chill",e:"🌊"},
+  {id:"sad",label:"Sad / emotional",e:"🥀"},
+  {id:"romantic",label:"Romantic",e:"🤍"},
+  {id:"luxury",label:"Luxury / aesthetic",e:"🥂"},
+  {id:"playful",label:"Playful / funny",e:"😏"},
+  {id:"saved",label:"Saved",e:"★"}
+];
+const STYLE_ORDER = ["Pop","Hip-Hop / Rap","R&B / Soul","Electronic / House","Phonk / Funk","Latin","K-Pop","Indie / Acoustic","Piano / Cinematic","Jazz / Lounge","Slowed & Sped up","Rock","Country","World","Christmas"];
+let STYLES=["All"], TRACKS=[], UPDATED="";
+const MLABEL = Object.fromEntries(MOODS.map(m=>[m.id,m.label]));
+
+const enc = s => encodeURIComponent(s);
+const links = x => ({
+  spotify:`https://open.spotify.com/search/${enc(x.t+" "+x.a)}`,
+  youtube:`https://www.youtube.com/results?search_query=${enc(x.t+" "+x.a)}`,
+  clip:`https://ads.tiktok.com/business/creativecenter/music/pc/en`
+});
+
+let saved=new Set(); try{saved=new Set(JSON.parse(localStorage.getItem("xxi_saved")||"[]"))}catch(e){}
+const persist=()=>{try{localStorage.setItem("xxi_saved",JSON.stringify([...saved]))}catch(e){}};
+let mood="all", style="All";
+try{mood=localStorage.getItem("xxi_mood")||"all";style=localStorage.getItem("xxi_style")||"All"}catch(e){}
+if(!MLABEL[mood])mood="all";
+
+const moodEl=document.getElementById("moodChips"), styleEl=document.getElementById("styleChips");
+const feed=document.getElementById("feed"), countEl=document.getElementById("count");
+
+function renderChips(){
+  moodEl.innerHTML=MOODS.map(m=>`<button class="chip ${m.id===mood?"on":""}" data-m="${m.id}"><span class="e">${m.e}</span>${m.label}</button>`).join("");
+  styleEl.innerHTML=STYLES.map(s=>{const n=s==="All"?TRACKS.length:TRACKS.filter(x=>x.s===s).length;
+    return `<button class="chip ${s===style?"on":""}" data-s="${s}">${s} <span style="opacity:.55">${n}</span></button>`}).join("");
+}
+function store(){try{localStorage.setItem("xxi_mood",mood);localStorage.setItem("xxi_style",style)}catch(e){}}
+moodEl.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;mood=b.dataset.m;store();renderChips();renderFeed();feed.scrollTo({top:0})});
+styleEl.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;style=b.dataset.s;store();renderChips();renderFeed();feed.scrollTo({top:0})});
+
+function list(){
+  return TRACKS.filter(x=>{
+    if(style!=="All"&&x.s!==style)return false;
+    if(mood==="all")return true;
+    if(mood==="saved")return saved.has(x.t);
+    if(mood==="hot")return !!x.hot;
+    if(mood==="new")return !!x.new;
+    return x.moods.includes(mood);
+  });
+}
+
+function card(x,i){
+  const L=links(x);
+  return `<section class="card" data-i="${i}">
+    <div class="rank">${String(TRACKS.indexOf(x)+1).padStart(2,"0")}</div>
+    <div class="discwrap"><div class="disc" data-play="${i}"><span class="pstate">▶</span></div></div>
+    <div class="meta">
+      <div class="badges"><span class="badge">${x.src}</span>${x.hot?`<span class="hot">🔥 Hot</span>`:""}${x.new?`<span class="hot" style="background:var(--cream)">✨ New</span>`:""}</div>
+      <h2>${x.t}</h2>
+      <div class="artist">${x.a}${x.stat?` · <span style="color:var(--gold-hi)">${x.stat}</span>`:""}</div>
+      <div class="stylel"><b>Style:</b> ${x.vibe}</div>
+      <div class="tags"><span class="tag s">${x.s}</span>${x.moods.map(m=>`<span class="tag">${MLABEL[m]}</span>`).join("")}</div>
+      <div class="row2">
+        <div class="energy">Energy <div class="bars">${[1,2,3,4,5].map(k=>`<span class="${k<=x.e?"f":""}"></span>`).join("")}</div></div>
+        <div class="player"><div class="pbar"><i></i></div><span class="ptxt">—</span></div>
+      </div>
+      ${x.trend?`<div class="idea" style="border-color:var(--cream)"><b>Trend on TikTok</b>${x.trend}</div>`:""}
+      <div class="idea"><b>Use it for</b>${x.idea}</div>
+      <div class="actions">
+        <a class="btn primary" href="${L.spotify}" target="_blank" rel="noopener">Spotify</a>
+        <a class="btn" href="${L.youtube}" target="_blank" rel="noopener">YouTube</a>
+        <a class="btn" href="${L.clip}" target="_blank" rel="noopener">TikTok clip</a>
+        <button class="btn save ${saved.has(x.t)?"on":""}" data-t="${x.t}" aria-label="Save">${saved.has(x.t)?"★":"☆"}</button>
+      </div>
+    </div>
+    ${i===0?`<div class="hint">Swipe up ↑</div>`:""}
+  </section>`;
+}
+
+function renderFeed(){
+  const items=list();
+  if(!items.length){
+    feed.innerHTML=`<div class="empty">${mood==="saved"?"Nothing saved yet. Tap ☆ on an audio to keep it here.":"Nothing matches that mix this week. Try another mood or style."}</div>`;
+    countEl.textContent=""; aud.pause(); return;
+  }
+  feed.innerHTML=items.map(card).join("")+
+    `<section class="card end"><div class="logo" style="justify-content:center"><span class="xxi" style="font-size:44px">XXI</span><span class="fin" style="font-size:52px">fin.</span></div>
+     <div class="hair"></div><h2>That's the lot.</h2>
+     <p>Updated ${UPDATED}. The list refreshes itself every morning and evening. Now go film.</p></section>`;
+  observe(); update(0,items.length);
+}
+function update(i,n){countEl.textContent=i<n?`${i+1} / ${n}`:"Done"}
+let io;
+function observe(){
+  io&&io.disconnect(); const n=list().length;
+  io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
+      e.target.classList.add("active");const i=+e.target.dataset.i;update(isNaN(i)?n:i,n);playFor(isNaN(i)?-1:i)}
+  }),{root:feed,threshold:.6});
+  feed.querySelectorAll(".card").forEach(c=>io.observe(c));
+}
+
+// ---------- audio previews (Apple iTunes Search API via JSONP) ----------
+const aud=document.getElementById("aud"); aud.loop=true;
+const cache={}; let current=-1, unlocked=false, cbn=0;
+function jsonp(url){
+  return new Promise(res=>{
+    const name="xxicb"+(cbn++), s=document.createElement("script");
+    const done=v=>{clearTimeout(to);delete window[name];s.remove();res(v)};
+    const to=setTimeout(()=>done(null),7000);
+    window[name]=d=>done(d); s.onerror=()=>done(null);
+    s.src=url+"&callback="+name; document.head.appendChild(s);
+  });
+}
+async function lookup(x){
+  if(x.t in cache)return cache[x.t];
+  const first=x.a.toLowerCase().split(/[ ,&]/)[0];
+  const base=x.t.replace(/\s*\((sped up|slowed|phonk|orchestral version|racing remix)\)\s*/i," ").trim();
+  for(const term of [x.t+" "+x.a, base+" "+x.a, x.t]){
+    const d=await jsonp(`https://itunes.apple.com/search?term=${enc(term)}&entity=song&limit=10&country=AU`);
+    const r=(d&&d.results||[]).filter(r=>r.previewUrl);
+    if(r.length){
+      const best=r.find(r=>(r.artistName||"").toLowerCase().includes(first))||r[0];
+      return cache[x.t]=best.previewUrl;
+    }
+  }
+  return cache[x.t]=null;
+}
+const cardEl=i=>feed.querySelector(`.card[data-i="${i}"]`);
+const fmt=s=>`0:${String(Math.floor(s||0)).padStart(2,"0")}`;
+function setTxt(i,t){const c=cardEl(i);if(c)c.querySelector(".ptxt").textContent=t}
+function setPlaying(on){
+  feed.querySelectorAll(".card.playing").forEach(c=>{c.classList.remove("playing");c.querySelector(".pstate").textContent="▶"});
+  const c=cardEl(current); if(!c)return;
+  c.classList.toggle("playing",on); c.querySelector(".pstate").textContent=on?"":"▶";
+}
+async function playFor(i){
+  current=i; aud.pause(); setPlaying(false);
+  const items=list(), x=items[i];
+  if(!x||!unlocked)return;
+  setTxt(i,"Loading…");
+  const url=await lookup(x);
+  if(current!==i)return;
+  if(!url){setTxt(i,"No preview · try Spotify");return}
+  if(aud.src!==url)aud.src=url;
+  try{aud.currentTime=0}catch(e){}
+  try{await aud.play();setPlaying(true)}catch(e){setTxt(i,"Tap the record ▶")}
+  if(items[i+1])lookup(items[i+1]); if(items[i+2])lookup(items[i+2]);
+}
+aud.addEventListener("timeupdate",()=>{
+  const c=cardEl(current); if(!c||aud.src.startsWith("blob:"))return;
+  const d=aud.duration||30;
+  c.querySelector(".pbar i").style.width=(aud.currentTime/d*100)+"%";
+  c.querySelector(".ptxt").textContent=`${fmt(aud.currentTime)} / ${fmt(d)}`;
+});
+aud.addEventListener("error",()=>{if(unlocked&&aud.src&&!aud.src.startsWith("blob:"))setTxt(current,"Preview failed · try Spotify")});
+
+feed.addEventListener("click",async e=>{
+  const sv=e.target.closest(".save");
+  if(sv){const t=sv.dataset.t;saved.has(t)?saved.delete(t):saved.add(t);persist();
+    sv.classList.toggle("on",saved.has(t));sv.textContent=saved.has(t)?"★":"☆";if(mood==="saved")renderFeed();return}
+  const d=e.target.closest(".disc"); if(!d)return;
+  const i=+d.dataset.play;
+  if(i!==current||!aud.src||aud.src.startsWith("blob:")){unlocked=true;return playFor(i)}
+  if(aud.paused){try{await aud.play();setPlaying(true)}catch(e){}}else{aud.pause();setPlaying(false)}
+});
+
+function silentWav(){
+  const n=800,b=new ArrayBuffer(44+n),v=new DataView(b),w=(o,s)=>[...s].forEach((c,k)=>v.setUint8(o+k,c.charCodeAt(0)));
+  w(0,"RIFF");v.setUint32(4,36+n,true);w(8,"WAVE");w(12,"fmt ");v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);
+  v.setUint32(24,8000,true);v.setUint32(28,8000,true);v.setUint16(32,1,true);v.setUint16(34,8,true);w(36,"data");v.setUint32(40,n,true);
+  for(let k=0;k<n;k++)v.setUint8(44+k,128);
+  return URL.createObjectURL(new Blob([b],{type:"audio/wav"}));
+}
+document.getElementById("start").addEventListener("click",()=>{
+  document.getElementById("start").classList.add("hide");
+  aud.src=silentWav();
+  aud.play().catch(()=>{}).finally(()=>{unlocked=true;playFor(current<0?0:current)});
+});
+
+const dust=document.getElementById("dust");
+for(let k=0;k<26;k++){const d=document.createElement("i");d.style.left=Math.random()*100+"%";d.style.top=(60+Math.random()*50)+"%";
+  d.style.animationDuration=(14+Math.random()*16)+"s";d.style.animationDelay=(-Math.random()*25)+"s";dust.appendChild(d)}
+
+async function load(){
+  try{
+    const r=await fetch("tracks.json?v="+Date.now(),{cache:"no-store"});
+    const d=await r.json();
+    TRACKS=d.tracks||[]; UPDATED=d.updated_label||"";
+  }catch(e){
+    feed.innerHTML=`<div class="empty">Couldn't load the song list. Check your connection and reopen.</div>`; return;
+  }
+  const have=new Set(TRACKS.map(x=>x.s));
+  STYLES=["All",...STYLE_ORDER.filter(s=>have.has(s)),...[...have].filter(s=>!STYLE_ORDER.includes(s))];
+  if(!STYLES.includes(style))style="All";
+  document.getElementById("upd").textContent=UPDATED?("Updated "+UPDATED):"";
+  renderChips(); renderFeed();
+}
+load();
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible" && Date.now()-(window._lastLoad||0)>30*60*1000){ window._lastLoad=Date.now(); load(); }});
+window._lastLoad=Date.now();
+</script>
+</body>
+</html>
