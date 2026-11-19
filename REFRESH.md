@@ -37,6 +37,9 @@ Fetch every page below. Skip any that fails; never invent entries.
 - `moods` — 1–3 of: hype, motivational, chill, sad, romantic, luxury, playful.
 - `e` — energy 1 (very calm) to 5 (max).
 - `vibe` — under 8 words describing the sound. `idea` — one short filming idea Finn (Perth, self-improvement/business creator, also films for local businesses) could shoot. Keep both under ~14 words.
+- `stat` — the page reads numbers from it, so keep these exact formats: `~47K new videos a day`, `~46K a day · up 30%`, `Up 72% this week`, `1M videos`. Omit if the source gives no number.
+- `stage` — optional, `"Rising"` or `"Peak"`, only when a source says so (e.g. SocialPilot's Stage). Otherwise leave it out; the page works it out.
+- `trend` — fill it whenever any source describes how creators use the sound (format, challenge, POV). This is the most useful field for Finn, so check SocialPilot, NewEngen and Metricool for it.
 - Skip songs you can't describe confidently.
 
 Top level: `{"updated": ISO time in Australia/Perth, "updated_label": "19 Nov, 4:30pm", "sources": [...], "tracks": [...]}`.
