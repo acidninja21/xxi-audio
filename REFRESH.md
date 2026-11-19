@@ -15,7 +15,15 @@ Fetch every page below. Skip any that fails; never invent entries.
 - https://metricool.com/tiktok-songs/
 - https://www.socialpilot.co/blog/tiktok-trends  (sounds + trend formats)
 - https://www.revid.ai/viral-tiktok-songs
-- One WebSearch: "trending TikTok sounds this week" for any fresh round-up from the last 7 days.
+- https://www.socialpilot.co/blog/instagram-reels-trends  (Reels sounds, stage, business-use notes)
+- https://www.heyorca.com/blog/trending-audio-for-reels-tiktok  (weekly original-audio trend formats, TikTok + Reels)
+- One WebSearch: "trending TikTok sounds this week" and one: "trending Instagram reels audio this week" for any fresh round-up from the last 7 days.
+
+## What Finn wants in the list
+Not just the biggest chart songs — sounds he can actually use. Aim for at least a third of the list to be creator-usable:
+instrumentals/background tracks (caption reels, talk-over, b-roll), original-audio trend formats, gym/car edit beats, and
+"progress / glow-up" sounds. His content: self-improvement & motivation caption reels (Instagram matters most), walk-and-talks,
+gym, cars, and social media work for local businesses. Christmas/seasonal is fine in season.
 
 "Original audio" sounds only go in when the source names the song they use (e.g. Krissy's PNW = Pink Floyd "Time").
 
@@ -40,6 +48,10 @@ Fetch every page below. Skip any that fails; never invent entries.
 - `stat` — the page reads numbers from it, so keep these exact formats: `~47K new videos a day`, `~46K a day · up 30%`, `Up 72% this week`, `1M videos`. Omit if the source gives no number.
 - `stage` — optional, `"Rising"` or `"Peak"`, only when a source says so (e.g. SocialPilot's Stage). Otherwise leave it out; the page works it out.
 - `trend` — fill it whenever any source describes how creators use the sound (format, challenge, POV). This is the most useful field for Finn, so check SocialPilot, NewEngen and Metricool for it.
+- `kind` — optional: `"instrumental"` (no vocals / background track) or `"original"` (an original-audio trend sound, not a song). Originals have no Spotify/Apple preview, so also give `"search": "<words to find it on TikTok>"`.
+- `platform` — optional: `"TikTok"`, `"Reels"` or `"Both"` when the source says where it's trending.
+- `biz` — optional: copy a source's business-account note, e.g. `"Best bet for business (instrumental) — check in-app"` or `"Major label — likely restricted on business accounts"`. Never claim a sound is cleared.
+- `good` — optional list to add uses the page can't work out itself, e.g. `["Caption reel","Progress / glow-up"]`.
 - Skip songs you can't describe confidently.
 
 Top level: `{"updated": ISO time in Australia/Perth, "updated_label": "19 Nov, 4:30pm", "sources": [...], "tracks": [...]}`.

@@ -71,6 +71,8 @@ h2{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:34px;line-he
 .heat .src{font-size:11px;letter-spacing:.06em;color:var(--muted)}
 .how{margin-top:10px;font-size:13.5px;line-height:1.4;max-width:46ch}
 .how b{color:var(--gold-hi);font-weight:600}
+.good{margin-top:8px;font-size:12.5px;color:var(--cream)}
+.good b{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-hi);margin-right:7px}
 .more{color:var(--gold-hi);font-weight:600;font-size:13px;margin-left:4px}
 .tags{display:flex;gap:6px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
 .tags::-webkit-scrollbar{display:none}
@@ -166,6 +168,7 @@ input:focus,textarea:focus{border-color:var(--gold-hi)}
 <section class="sheet" id="shFilter">
   <div class="grab"></div><h3>Filter & sort</h3>
   <div class="lab">Sort</div><div class="chips" id="cSort"></div>
+  <div class="lab">Show</div><div class="chips" id="cShow"></div>
   <div class="lab">Mood</div><div class="chips" id="cMood"></div>
   <div class="lab">Style</div><div class="chips" id="cStyle"></div>
   <div class="tog"><span>Auto-swipe when a preview ends</span><button class="sw" id="swAuto" aria-label="Auto-swipe"></button></div>
@@ -188,7 +191,7 @@ input:focus,textarea:focus{border-color:var(--gold-hi)}
 <div id="start">
   <div class="logo"><span class="xxi" style="font-size:56px">XXI</span><span class="fin" style="font-size:64px">fin.</span></div>
   <div class="big">Trending audio</div>
-  <p>Swipe up for the next sound.<br>Tap to pause · double-tap to save.<br>Previews are 30 seconds.</p>
+  <p>A fresh mix every time you open it,<br>sounds you haven’t seen first.<br>Tap to pause · double-tap to save.</p>
   <div class="gbtn">Tap to start 🔊</div>
 </div>
 
@@ -196,9 +199,10 @@ input:focus,textarea:focus{border-color:var(--gold-hi)}
 /* ---------- config ---------- */
 const MOODS=[["hype","High energy","⚡"],["motivational","Motivational","💪"],["chill","Chill","🌊"],["sad","Sad / emotional","🥀"],["romantic","Romantic","🤍"],["luxury","Luxury / aesthetic","🥂"],["playful","Playful / funny","😏"]];
 const MLABEL=Object.fromEntries(MOODS.map(m=>[m[0],m[1]]));
-const STYLE_ORDER=["Pop","Hip-Hop / Rap","R&B / Soul","Electronic / House","Phonk / Funk","Latin","K-Pop","Indie / Acoustic","Piano / Cinematic","Jazz / Lounge","Slowed & Sped up","Rock","Country","World","Christmas"];
-const TABS=[["all","For You"],["hot","Hot"],["new","New"],["saved","Saved"]];
-const SORTS=[["pop","Most popular"],["rise","Rising fastest"],["calm","Calm → hype"],["hype","Hype → calm"],["az","A–Z"]];
+const STYLE_ORDER=["Trend sound","Pop","Hip-Hop / Rap","R&B / Soul","Electronic / House","Phonk / Funk","Latin","K-Pop","Indie / Acoustic","Piano / Cinematic","Jazz / Lounge","Slowed & Sped up","Rock","Country","World","Christmas"];
+const TABS=[["all","For You"],["charts","Charts"],["new","New"],["saved","Saved"]];
+const SHOWS=[["hot","🔥 Hot only"],["instr","🎹 Instrumentals"],["orig","🗣 Trend sounds"],["biz","💼 Best for business"],["unseen","👀 Not seen yet"]];
+const SORTS=[["pop","For You mix"],["chart","Most popular"],["rise","Rising fastest"],["calm","Calm → hype"],["hype","Hype → calm"],["az","A–Z"]];
 const IC={
  star:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17l-5.6 3 1.1-6.2L2.9 9.4l6.3-.9z"/></svg>',
  note:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg>',
@@ -213,8 +217,11 @@ const IC={
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let TRACKS=[],UPDATED="",STYLES=[];
 let saved=new Set(LS.get("xxi_saved",[])), notes=LS.get("xxi_notes",{});
-let st=Object.assign({tab:"all",moods:[],style:"All",sort:"pop",q:"",auto:true},LS.get("xxi_state",{}));
-const persist=()=>{LS.set("xxi_saved",[...saved]);LS.set("xxi_notes",notes);LS.set("xxi_state",{tab:st.tab,moods:st.moods,style:st.style,sort:st.sort,auto:st.auto})};
+let st=Object.assign({tab:"all",moods:[],style:"All",sort:"pop",q:"",auto:true,show:[]},LS.get("xxi_state",{}));
+if(!Array.isArray(st.show))st.show=[]; if(st.tab==="hot")st.tab="all";
+let seen=LS.get("xxi_seen",{}); const DAY=864e5; for(const k in seen)if(Date.now()-seen[k]>14*DAY)delete seen[k];
+const isSeen=x=>!!seen[x.t]&&Date.now()-seen[x.t]<3*DAY;
+const persist=()=>{LS.set("xxi_saved",[...saved]);LS.set("xxi_notes",notes);LS.set("xxi_state",{tab:st.tab,moods:st.moods,style:st.style,sort:st.sort,auto:st.auto,show:st.show});LS.set("xxi_seen",seen)};
 const $=id=>document.getElementById(id);
 const feed=$("feed"), aud=$("aud");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -226,23 +233,57 @@ function growth(x){const m=(x.stat||"").match(/up\s*(\d+)%/i);return m?+m[1]:0}
 function stage(x){if(x.stage)return x.stage; if(growth(x)>=40||(x.new&&!x.hot))return "Rising"; if(x.hot)return "Peak"; return ""}
 function fmtK(n){return n>=1000?(n/1000).toFixed(n>=10000?0:1).replace(/\.0$/,"")+"K":String(n)}
 
+
+/* ---------- usability ---------- */
+const CALMSTYLES=["Piano / Cinematic","Jazz / Lounge","Slowed & Sped up","Indie / Acoustic","Electronic / House"];
+function good(x){
+  if(x._good)return x._good; const g=new Set(x.good||[]);
+  if(x.kind==="instrumental"&&x.e<=3){g.add("Caption reel");g.add("Talk-over")}
+  if(x.e<=2&&CALMSTYLES.includes(x.s)){g.add("Caption reel");g.add("B-roll")}
+  if(x.moods.includes("motivational"))g.add("Progress / glow-up");
+  if(x.e>=4)g.add("Transitions");
+  if(x.e>=4&&x.moods.includes("hype")&&["Phonk / Funk","Hip-Hop / Rap","Electronic / House","Rock"].includes(x.s)){g.add("Gym");g.add("Car edit")}
+  if(x.trend||x.kind==="original")g.add("Trend format");
+  if(x.moods.includes("luxury"))g.add("Aesthetic");
+  if(x.moods.includes("playful")&&x.e<=4)g.add("Skit");
+  if(x.s==="Christmas")g.add("Seasonal");
+  return x._good=[...g];
+}
+const isInstr=x=>x.kind==="instrumental";
+const bizOk=x=>/best bet/i.test(x.biz||"")||x.kind==="instrumental";
+function useScore(x){
+  const g=good(x); let sc=1;
+  ["Caption reel","Progress / glow-up","Trend format","Gym","Car edit","Talk-over"].forEach(k=>{if(g.includes(k))sc+=1.2});
+  if(x.kind)sc+=1.5; if(x.new)sc+=1.5; if(stage(x)==="Rising")sc+=1; if(x.hot)sc+=.5;
+  const m=(x.src||"").match(/^Global chart #(\d+)/); if(m&&+m[1]>25&&!x.trend)sc-=.8;
+  return Math.max(.3,sc);
+}
+let MIX=new Map();
+function buildMix(){ // new random order every load: unseen first, weighted towards usable sounds
+  MIX=new Map(TRACKS.map(x=>[x.t,(isSeen(x)?0:10)+Math.pow(Math.random(),1/(useScore(x)**2))]));
+}
 /* ---------- list ---------- */
 function list(){
   const q=st.q.trim().toLowerCase();
   let L=TRACKS.filter(x=>{
-    if(st.tab==="hot"&&!x.hot)return false;
     if(st.tab==="new"&&!x.new)return false;
     if(st.tab==="saved"&&!saved.has(x.t))return false;
     if(st.style!=="All"&&x.s!==st.style)return false;
+    if(st.show.includes("hot")&&!x.hot)return false;
+    if(st.show.includes("instr")&&!isInstr(x))return false;
+    if(st.show.includes("orig")&&x.kind!=="original")return false;
+    if(st.show.includes("biz")&&!bizOk(x))return false;
+    if(st.show.includes("unseen")&&isSeen(x))return false;
     if(st.moods.length&&!st.moods.some(m=>x.moods.includes(m)))return false;
-    if(q&&!(x.t+" "+x.a+" "+x.s+" "+x.vibe+" "+x.idea+" "+(x.trend||"")+" "+x.moods.join(" ")+" "+(notes[x.t]||"")).toLowerCase().includes(q))return false;
+    if(q&&!(x.t+" "+x.a+" "+x.s+" "+x.vibe+" "+x.idea+" "+(x.trend||"")+" "+x.moods.join(" ")+" "+good(x).join(" ")+" "+(notes[x.t]||"")).toLowerCase().includes(q))return false;
     return true;
   });
   const idx=new Map(TRACKS.map((x,i)=>[x.t,i]));
-  const by={pop:(a,b)=>idx.get(a.t)-idx.get(b.t),
+  const mode=st.tab==="charts"?"chart":st.sort;
+  const by={pop:(a,b)=>(MIX.get(b.t)||0)-(MIX.get(a.t)||0),chart:(a,b)=>idx.get(a.t)-idx.get(b.t),
     rise:(a,b)=>(growth(b)+(b.new?30:0)+(stage(b)==="Rising"?20:0))-(growth(a)+(a.new?30:0)+(stage(a)==="Rising"?20:0))||idx.get(a.t)-idx.get(b.t),
-    calm:(a,b)=>a.e-b.e||idx.get(a.t)-idx.get(b.t),hype:(a,b)=>b.e-a.e||idx.get(a.t)-idx.get(b.t),az:(a,b)=>a.t.localeCompare(b.t)}[st.sort];
-  return L.sort(by);
+    calm:(a,b)=>a.e-b.e||idx.get(a.t)-idx.get(b.t),hype:(a,b)=>b.e-a.e||idx.get(a.t)-idx.get(b.t),az:(a,b)=>a.t.localeCompare(b.t)};
+  return L.sort(by[mode]||by.pop);
 }
 let ITEMS=[];
 
@@ -253,39 +294,43 @@ function renderHeader(){
   if(st.q)parts.push(`<button class="pill" data-clear="q">🔍 <b>${esc(st.q)}</b> ✕</button>`);
   st.moods.forEach(m=>parts.push(`<button class="pill" data-clear="m:${m}">${MLABEL[m]} ✕</button>`));
   if(st.style!=="All")parts.push(`<button class="pill" data-clear="s">${esc(st.style)} ✕</button>`);
-  if(st.sort!=="pop")parts.push(`<button class="pill" data-clear="sort">${SORTS.find(s=>s[0]===st.sort)[1]} ✕</button>`);
-  parts.push(`<span>${ITEMS.length} sounds · updated ${esc(UPDATED)}</span>`);
+  st.show.forEach(k=>parts.push(`<button class="pill" data-clear="sh:${k}">${SHOWS.find(z=>z[0]===k)[1]} ✕</button>`));
+  if(st.sort!=="pop"&&st.tab!=="charts")parts.push(`<button class="pill" data-clear="sort">${SORTS.find(s=>s[0]===st.sort)[1]} ✕</button>`);
+  const un=ITEMS.filter(x=>!isSeen(x)).length;
+  parts.push(`<span>${ITEMS.length} sounds${un&&un<ITEMS.length?` · ${un} new to you`:""} · updated ${esc(UPDATED)}</span>`);
   $("sub").innerHTML=parts.join("");
-  $("bFilter").classList.toggle("has",!!(st.moods.length||st.style!=="All"||st.sort!=="pop"));
+  $("bFilter").classList.toggle("has",!!(st.moods.length||st.style!=="All"||st.sort!=="pop"||st.show.length));
   $("copyFab").classList.toggle("show",st.tab==="saved"&&saved.size>0);
 }
 $("tabs").addEventListener("click",e=>{const b=e.target.closest(".tab");if(!b)return;st.tab=b.dataset.tab;refresh(true)});
 $("sub").addEventListener("click",e=>{const b=e.target.closest("[data-clear]");if(!b)return;const c=b.dataset.clear;
-  if(c==="q")st.q="";else if(c==="s")st.style="All";else if(c==="sort")st.sort="pop";else if(c.startsWith("m:"))st.moods=st.moods.filter(m=>m!==c.slice(2));refresh(true)});
+  if(c==="q")st.q="";else if(c==="s")st.style="All";else if(c==="sort")st.sort="pop";else if(c.startsWith("sh:"))st.show=st.show.filter(k=>k!==c.slice(3));else if(c.startsWith("m:"))st.moods=st.moods.filter(m=>m!==c.slice(2));refresh(true)});
 
 /* ---------- cards ---------- */
 function card(x,i){
-  const L={sp:`https://open.spotify.com/search/${enc(x.t+" "+x.a)}`,yt:`https://www.youtube.com/results?search_query=${enc(x.t+" "+x.a)}`,tt:`https://ads.tiktok.com/business/creativecenter/music/pc/en`};
+  const orig=x.kind==="original";
+  const L={sp:`https://open.spotify.com/search/${enc(x.t+" "+x.a)}`,yt:`https://www.youtube.com/results?search_query=${enc(orig?(x.search||x.t)+" trend":x.t+" "+x.a)}`,tt:orig?`https://www.tiktok.com/search?q=${enc(x.search||x.t)}`:`https://ads.tiktok.com/business/creativecenter/music/pc/en`};
   const pd=perDay(x), sg=stage(x), g=growth(x);
-  const how=x.trend?`<b>On TikTok:</b> ${esc(x.trend)}`:`<b>Sound:</b> ${esc(x.vibe)}`;
+  const how=x.trend?`<b>${x.platform==="Reels"?"On Reels":x.platform==="Both"?"Trend":"On TikTok"}:</b> ${esc(x.trend)}`:`<b>Sound:</b> ${esc(x.vibe)}`;
   return `<section class="card" data-i="${i}">
    <div class="bgart"></div>
    <div class="art"><div class="ph"></div><img alt=""></div>
    <div class="paused">${IC.play}</div>
    <div class="info">
-     <div class="badges">${x.hot?`<span class="b hot">🔥 Hot</span>`:""}${x.new?`<span class="b new">✨ New</span>`:""}${sg?`<span class="b ${sg==="Rising"?"rise":"peak"}">${sg==="Rising"?"↗ Rising":"● Peak"}</span>`:""}</div>
-     <h2>${esc(x.t)}</h2>
+     <div class="badges">${x.hot?`<span class="b hot">🔥 Hot</span>`:""}${x.new?`<span class="b new">✨ New</span>`:""}${sg?`<span class="b ${sg==="Rising"?"rise":"peak"}">${sg==="Rising"?"↗ Rising":"● Peak"}</span>`:""}${orig?`<span class="b peak">🗣 Trend sound</span>`:isInstr(x)?`<span class="b peak">🎹 Instrumental</span>`:""}${x.platform==="Reels"?`<span class="b peak">IG Reels</span>`:x.platform==="Both"?`<span class="b peak">TikTok + Reels</span>`:""}</div>
+     <h2 ${x.t.length>24?`style="font-size:clamp(22px,7vw,28px)"`:""}>${esc(x.t)}</h2>
      <div class="artist">${esc(x.a)}</div>
      <div class="heat">${pd?`<span class="big">${fmtK(pd)}<small>videos / day</small></span>`:g?`<span class="big">+${g}%<small>this week</small></span>`:""}<span class="src">${esc(x.src)}</span></div>
      <div class="how">${how} <button class="more" data-more="${i}">More</button></div>
+     <div class="good"><b>Good for</b>${good(x).slice(0,4).join(" · ")||"General use"}</div>
      <div class="tags"><span class="tag s">${esc(x.s)}</span>${x.moods.map(m=>`<span class="tag">${MLABEL[m]||m}</span>`).join("")}<span class="tag">Energy <span class="ebar">${[1,2,3,4,5].map(k=>`<i class="${k<=x.e?"f":""}"></i>`).join("")}</span></span></div>
    </div>
    <div class="rail">
      <button class="rb save ${saved.has(x.t)?"on":""}" data-act="save"><span class="c">${IC.star}</span>${saved.has(x.t)?"Saved":"Save"}</button>
      <button class="rb note ${notes[x.t]?"noted":""}" data-act="note"><span class="c">${IC.note}</span>${notes[x.t]?"Note ✓":"Note"}</button>
-     <a class="rb" href="${L.sp}" target="_blank" rel="noopener"><span class="c">${IC.sp}</span>Spotify</a>
+     ${orig?"":`<a class="rb" href="${L.sp}" target="_blank" rel="noopener"><span class="c">${IC.sp}</span>Spotify</a>`}
      <a class="rb" href="${L.yt}" target="_blank" rel="noopener"><span class="c">${IC.yt}</span>YouTube</a>
-     <a class="rb" href="${L.tt}" target="_blank" rel="noopener"><span class="c">${IC.tt}</span>Clip</a>
+     <a class="rb" href="${L.tt}" target="_blank" rel="noopener"><span class="c">${IC.tt}</span>${orig?"Hear it":"Clip"}</a>
      <div class="mdisc"></div>
    </div>
    <div class="prog"><i></i></div><div class="ptxt"></div>
@@ -296,7 +341,7 @@ function renderFeed(){
   if(!ITEMS.length){
     const msg=st.tab==="saved"&&!saved.size?"Nothing saved yet.<br>Double-tap a sound, or tap ★ Save.":"Nothing matches that mix right now.";
     feed.innerHTML=`<div class="empty"><div>${msg}</div><button class="obtn" id="clearAll">Clear filters</button></div>`;
-    $("clearAll").onclick=()=>{st.q="";st.moods=[];st.style="All";st.sort="pop";if(st.tab!=="saved")st.tab="all";refresh(true)};
+    $("clearAll").onclick=()=>{st.q="";st.moods=[];st.style="All";st.sort="pop";st.show=[];if(st.tab!=="saved")st.tab="all";refresh(true)};
     renderHeader();aud.pause();return;
   }
   feed.innerHTML=ITEMS.map(card).join("")+`<section class="card end"><div class="logo"><span class="xxi">XXI</span><span class="fin">fin.</span></div>
@@ -319,8 +364,9 @@ function observe(){
   feed.querySelectorAll(".card").forEach(c=>io.observe(c));
 }
 const cardEl=i=>feed.querySelector(`.card[data-i="${i}"]`);
+let seenT;
 function activate(i){
-  current=i; feed.querySelectorAll(".card.playing").forEach(c=>c.classList.remove("playing"));
+  current=i; clearTimeout(seenT); const tx=ITEMS[i]; seenT=setTimeout(()=>{if(current===i&&tx){seen[tx.t]=Date.now();LS.set("xxi_seen",seen)}},2500); feed.querySelectorAll(".card.playing").forEach(c=>c.classList.remove("playing"));
   for(let k=i-1;k<=i+3;k++)if(ITEMS[k])paintArt(k);
   playFor(i);
 }
@@ -345,7 +391,7 @@ function lookup(x){
   })();
 }
 async function paintArt(i){
-  const x=ITEMS[i]; if(!x)return; const r=await lookup(x); const c=cardEl(i); if(!c||!r.art||c.dataset.art)return;
+  const x=ITEMS[i]; if(!x||x.kind==="original")return; const r=await lookup(x); const c=cardEl(i); if(!c||!r.art||c.dataset.art)return;
   c.dataset.art=1; const img=c.querySelector(".art img"); img.onload=()=>img.classList.add("on"); img.src=r.art;
   const bg=c.querySelector(".bgart"); bg.style.backgroundImage=`url("${r.art}")`; bg.classList.add("on");
   c.querySelector(".mdisc").style.backgroundImage=`url("${r.art}")`;
@@ -359,6 +405,7 @@ function setPlaying(on){
 async function playFor(i){
   aud.pause(); feed.querySelectorAll(".card.isPaused").forEach(c=>c.classList.remove("isPaused"));
   const x=ITEMS[i]; if(!x||!unlocked)return;
+  if(x.kind==="original"){setTxt(i,"original audio · tap Hear it");return}
   setTxt(i,"loading…");
   const r=await lookup(x); if(current!==i)return;
   if(!r.url){setTxt(i,"no preview · try Spotify");return}
@@ -413,18 +460,20 @@ let draft=null;
 function countFor(d){const keep=st;st=Object.assign({},st,d);const n=list().length;st=keep;return n}
 function paintFilter(){
   $("cSort").innerHTML=SORTS.map(([id,l])=>`<button class="chip ${draft.sort===id?"on":""}" data-sort="${id}">${l}</button>`).join("");
+  $("cShow").innerHTML=SHOWS.map(([id,l])=>`<button class="chip ${draft.show.includes(id)?"on":""}" data-show="${id}">${l}</button>`).join("");
   $("cMood").innerHTML=MOODS.map(([id,l,e])=>`<button class="chip ${draft.moods.includes(id)?"on":""}" data-mood="${id}">${e} ${l}</button>`).join("");
   $("cStyle").innerHTML=["All",...STYLES].map(s=>`<button class="chip ${draft.style===s?"on":""}" data-style="${esc(s)}">${esc(s)}<small>${s==="All"?TRACKS.length:TRACKS.filter(x=>x.s===s).length}</small></button>`).join("");
   $("swAuto").classList.toggle("on",draft.auto);
   $("fCount").textContent=countFor(draft)+" sounds";
 }
-$("bFilter").onclick=()=>{draft={moods:[...st.moods],style:st.style,sort:st.sort,auto:st.auto};paintFilter();sheet("shFilter")};
+$("bFilter").onclick=()=>{draft={moods:[...st.moods],style:st.style,sort:st.sort,auto:st.auto,show:[...st.show]};paintFilter();sheet("shFilter")};
 $("shFilter").addEventListener("click",e=>{const b=e.target.closest("button");if(!b||!draft)return;
   if(b.dataset.sort)draft.sort=b.dataset.sort;
   else if(b.dataset.mood){const m=b.dataset.mood;draft.moods=draft.moods.includes(m)?draft.moods.filter(k=>k!==m):[...draft.moods,m]}
   else if(b.dataset.style)draft.style=b.dataset.style;
+  else if(b.dataset.show){const k=b.dataset.show;draft.show=draft.show.includes(k)?draft.show.filter(z=>z!==k):[...draft.show,k]}
   else if(b.id==="swAuto")draft.auto=!draft.auto;
-  else if(b.id==="fReset")draft={moods:[],style:"All",sort:"pop",auto:draft.auto};
+  else if(b.id==="fReset")draft={moods:[],style:"All",sort:"pop",auto:draft.auto,show:[]};
   else if(b.id==="fDone"){Object.assign(st,draft);aud.loop=!st.auto;closeSheet();refresh(true);return}
   else return; paintFilter()});
 
@@ -432,7 +481,7 @@ $("shFilter").addEventListener("click",e=>{const b=e.target.closest("button");if
 $("bSearch").onclick=()=>{sheet("shSearch");$("q").value=st.q;paintSearch();setTimeout(()=>$("q").focus(),320)};
 function paintSearch(){
   const q=$("q").value.trim().toLowerCase();
-  const R=q?TRACKS.filter(x=>(x.t+" "+x.a+" "+x.s+" "+x.vibe+" "+x.idea+" "+(x.trend||"")+" "+x.moods.join(" ")).toLowerCase().includes(q)):TRACKS.filter(x=>x.hot).slice(0,8);
+  const R=q?TRACKS.filter(x=>(x.t+" "+x.a+" "+x.s+" "+x.vibe+" "+x.idea+" "+(x.trend||"")+" "+x.moods.join(" ")+" "+good(x).join(" ")).toLowerCase().includes(q)):TRACKS.filter(x=>x.hot).slice(0,8);
   $("qres").innerHTML=(q?`<button class="gbtn" style="width:100%;margin-bottom:6px" id="qAll">Show all ${R.length} results in the feed</button>`:`<div class="lab" style="margin-top:4px">Hot right now</div>`)+
    R.slice(0,30).map(x=>`<button class="ri" data-t="${esc(x.t)}"><span class="th" data-th="${esc(x.t)}"></span><span><div class="t">${esc(x.t)}</div><div class="a">${esc(x.a)} · ${esc(x.s)}</div></span><span class="x">${perDay(x)?fmtK(perDay(x))+"/day":x.new?"New":""}</span></button>`).join("");
   $("qres").querySelectorAll("[data-th]").forEach(async el=>{const x=TRACKS.find(t=>t.t===el.dataset.th);const r=await lookup(x);if(r.art)el.style.backgroundImage=`url("${r.art.replace("600x600","100x100")}")`});
@@ -462,11 +511,13 @@ function openMore(x){
    <dl class="dl">
     <dt>Status</dt><dd>${[x.hot?"🔥 Hot":"",x.new?"✨ New this refresh":"",stage(x)?(stage(x)==="Rising"?"↗ Rising":"● At peak"):""].filter(Boolean).join(" · ")||"Charting"}</dd>
     ${pd||g?`<dt>Usage</dt><dd>${esc(x.stat)}</dd>`:x.stat?`<dt>Usage</dt><dd>${esc(x.stat)}</dd>`:""}
-    <dt>Charts</dt><dd>${esc(x.src)}</dd>
+    <dt>Where</dt><dd>${esc(x.src)}${x.platform?` · ${x.platform==="Both"?"TikTok + Reels":x.platform}`:""}</dd>
     ${x.trend?`<dt>On TikTok</dt><dd>${esc(x.trend)}</dd>`:""}
     <dt>Sound</dt><dd>${esc(x.vibe)}</dd>
     <dt>Style</dt><dd>${esc(x.s)} · ${x.moods.map(m=>MLABEL[m]||m).join(", ")} · energy ${x.e}/5</dd>
+    <dt>Good for</dt><dd>${good(x).join(" · ")||"General use"}</dd>
     <dt>Film it</dt><dd>${esc(x.idea)}</dd>
+    <dt>Business use</dt><dd>${esc(x.biz||(isInstr(x)?"Instrumental: usually the safest bet. Check it’s in the Commercial Music Library in-app.":x.kind==="original"?"Original audio: check in-app before posting from a business account.":"Not checked. Big chart songs are often blocked on business accounts."))}</dd>
     ${notes[x.t]?`<dt>Your note</dt><dd>${esc(notes[x.t])}</dd>`:""}
    </dl>
    <div class="row"><button class="obtn" id="mCopy">Copy name</button><button class="gbtn" id="mNote">${notes[x.t]?"Edit note":"Add note"}</button></div>`;
@@ -505,6 +556,7 @@ async function load(keepPos){
   STYLES=[...STYLE_ORDER.filter(s=>have.has(s)),...[...have].filter(s=>!STYLE_ORDER.includes(s))];
   if(st.style!=="All"&&!have.has(st.style))st.style="All";
   st.moods=st.moods.filter(m=>MLABEL[m]);
+  buildMix();
   if(!keepPos){renderFeed()}
 }
 let lastLoad=Date.now();

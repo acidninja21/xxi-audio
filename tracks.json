@@ -7,7 +7,9 @@
   "Metricool (16 Nov)",
   "SocialPilot (17–25 Nov)",
   "NewEngen (30 Oct–5 Nov)",
-  "Revid (18 Nov)"
+  "Revid (18 Nov)",
+  "SocialPilot Instagram Reels (17–25 Nov)",
+  "HeyOrca (13 Nov)"
  ],
  "tracks": [
   {
@@ -24,7 +26,8 @@
    "idea": "Tease something new (a client win, a car part, a new service) and reveal it on the chorus.",
    "stat": "~130K new videos a day",
    "hot": 1,
-   "trend": "“My Moon My Man” soft launch: show a glimpse, reveal on the chorus."
+   "trend": "“My Moon My Man” soft launch: show a glimpse, reveal on the chorus.",
+   "platform": "TikTok"
   },
   {
    "t": "Housewife",
@@ -57,7 +60,9 @@
    "idea": "Recreate an old photo of you in the same spot, cut between then and now.",
    "stat": "~38K new videos a day",
    "hot": 1,
-   "trend": "“Same Spot, Years Apart”: then vs now in the same location."
+   "trend": "“Same Spot, Years Apart” on TikTok. On Reels: childhood photo then present-day you, or day one vs the team today.",
+   "platform": "Both",
+   "biz": "Major label — likely restricted on business accounts"
   },
   {
    "t": "Rechazame",
@@ -104,7 +109,9 @@
    "vibe": "Nostalgic Christmas pop.",
    "idea": "Year-in-review recap of your wins.",
    "stat": "~45K new videos a day",
-   "hot": 1
+   "hot": 1,
+   "platform": "Both",
+   "trend": "Reels: lights switching on, a shopfront going from normal to Christmas."
   },
   {
    "t": "Dilruba Dilnasheen",
@@ -163,7 +170,8 @@
    "vibe": "Sweeping, emotional orchestral.",
    "idea": "Text-over-video: 'things I'd tell myself a year ago'.",
    "stat": "~42K new videos a day",
-   "hot": 1
+   "hot": 1,
+   "kind": "instrumental"
   },
   {
    "t": "Paper Moon Static",
@@ -194,7 +202,8 @@
    "vibe": "Classic, elegant piano.",
    "idea": "Black & gold aesthetic B-roll. Slow pans, a quote on screen.",
    "stat": "7M videos",
-   "hot": 1
+   "hot": 1,
+   "kind": "instrumental"
   },
   {
    "t": "Little Things",
@@ -210,7 +219,8 @@
    "vibe": "Soft, sentimental piano.",
    "idea": "'Small wins this month' list with text on screen.",
    "stat": "~100K a day · 10M videos",
-   "hot": 1
+   "hot": 1,
+   "kind": "instrumental"
   },
   {
    "t": "Montagem da Chupeta",
@@ -225,7 +235,8 @@
    "vibe": "Hard-hitting Brazilian funk.",
    "idea": "Gym or car edit: speed ramps, hard cuts, flash on the drop.",
    "stat": "1M videos",
-   "hot": 1
+   "hot": 1,
+   "kind": "instrumental"
   },
   {
    "t": "Strange Bit",
@@ -310,7 +321,8 @@
    "e": 1,
    "vibe": "Moody soundtrack piano.",
    "idea": "Late-night work session: laptop glow, quiet grind.",
-   "stat": "~18K a day"
+   "stat": "~18K a day",
+   "kind": "instrumental"
   },
   {
    "t": "Let It Snow! Let It Snow! Let It Snow!",
@@ -390,7 +402,8 @@
    "e": 2,
    "vibe": "Dark, dramatic waltz.",
    "idea": "Moody dramatic reveal or villain-arc edit.",
-   "stat": "~9K a day"
+   "stat": "~9K a day",
+   "kind": "instrumental"
   },
   {
    "t": "You're Under Arrest",
@@ -445,7 +458,8 @@
    ],
    "e": 4,
    "vibe": "Confident, glam, main-character energy.",
-   "idea": "Dramatic outfit transition or glam brand reveal."
+   "idea": "Dramatic outfit transition or glam brand reveal.",
+   "platform": "Both"
   },
   {
    "t": "Coming Up Roses",
@@ -457,7 +471,11 @@
    ],
    "e": 2,
    "vibe": "Sweet, swoony romance.",
-   "idea": "Lyric edit or 'only me and you' montage."
+   "idea": "'Small wins' montage of your week.",
+   "platform": "Both",
+   "stage": "Rising",
+   "trend": "Reels: “small wins” montages and candid moments.",
+   "biz": "Major label — likely restricted on business accounts"
   },
   {
    "t": "Angel Of My Dreams",
@@ -551,7 +569,8 @@
    ],
    "e": 3,
    "vibe": "Warm, soulful.",
-   "idea": "Cafe B-roll or a slow Sunday reset."
+   "idea": "Cafe B-roll or a slow Sunday reset.",
+   "platform": "Both"
   },
   {
    "t": "What More Can I Say",
@@ -614,7 +633,8 @@
    ],
    "e": 1,
    "vibe": "Lounge jazz, soft luxury.",
-   "idea": "Workspace, coffee, 'planning my week' aesthetic."
+   "idea": "Workspace, coffee, 'planning my week' aesthetic.",
+   "kind": "instrumental"
   },
   {
    "t": "Sunset in Girona",
@@ -628,7 +648,8 @@
    ],
    "e": 1,
    "vibe": "Smooth, cosy jazz.",
-   "idea": "Travel or lifestyle clips. Suits black & gold."
+   "idea": "Travel or lifestyle clips. Suits black & gold.",
+   "kind": "instrumental"
   },
   {
    "t": "Self Aware",
@@ -641,7 +662,8 @@
    ],
    "e": 2,
    "vibe": "Hypnotic, mysterious instrumental.",
-   "idea": "Room or desk makeover, night vlog."
+   "idea": "Room or desk makeover, night vlog.",
+   "kind": "instrumental"
   },
   {
    "t": "Time Back",
@@ -654,7 +676,8 @@
    ],
    "e": 4,
    "vibe": "Slow-building atmospheric techno.",
-   "idea": "Build-up then reveal: launch, transformation, results."
+   "idea": "Build-up then reveal: launch, transformation, results.",
+   "kind": "instrumental"
   },
   {
    "t": "Take Me (To The Moon)",
@@ -679,7 +702,8 @@
    ],
    "e": 4,
    "vibe": "Suspense, last-second tension.",
-   "idea": "Dramatic comeback: 'Day 1 vs Day 31'."
+   "idea": "Dramatic comeback: 'Day 1 vs Day 31'.",
+   "kind": "instrumental"
   },
   {
    "t": "Le Sable & Les Vagues",
@@ -705,7 +729,8 @@
    ],
    "e": 3,
    "vibe": "Dreamy house-pop.",
-   "idea": "Travel and aesthetic edits."
+   "idea": "Travel and aesthetic edits.",
+   "kind": "instrumental"
   },
   {
    "t": "Too Self Aware",
@@ -718,7 +743,8 @@
    ],
    "e": 3,
    "vibe": "Laid-back house/garage.",
-   "idea": "Outfit reveals or light funny clips."
+   "idea": "Outfit reveals or light funny clips.",
+   "kind": "instrumental"
   },
   {
    "t": "V-Cut",
@@ -757,7 +783,8 @@
    "e": 1,
    "vibe": "Slowed, floaty.",
    "idea": "Night-sky or night-drive B-roll.",
-   "stat": "4.2M plays"
+   "stat": "4.2M plays",
+   "kind": "instrumental"
   },
   {
    "t": "Aura Farming (Slowed)",
@@ -770,7 +797,8 @@
    ],
    "e": 2,
    "vibe": "Cool, calm 'aura' edit sound.",
-   "idea": "Effortless-cool edit: no talking, just presence."
+   "idea": "Effortless-cool edit: no talking, just presence.",
+   "kind": "instrumental"
   },
   {
    "t": "you (super slowed)",
@@ -796,7 +824,8 @@
    ],
    "e": 4,
    "vibe": "Building, comedic sax.",
-   "idea": "Escalating chaos: 'my to-do list as the day goes on'."
+   "idea": "Escalating chaos: 'my to-do list as the day goes on'.",
+   "kind": "instrumental"
   },
   {
    "t": "QUIERES SER EDITOR (Slowed)",
@@ -835,7 +864,8 @@
    ],
    "e": 5,
    "vibe": "Dark, heavy phonk.",
-   "idea": "Gym PR or car night-shot edit."
+   "idea": "Gym PR or car night-shot edit.",
+   "kind": "instrumental"
   },
   {
    "t": "BLUE WATER CANDY",
@@ -902,7 +932,8 @@
    "e": 2,
    "vibe": "Creepy piano with a meme twist.",
    "idea": "Dramatic 'villain' reveal or spooky joke.",
-   "stat": "25K videos"
+   "stat": "25K videos",
+   "kind": "instrumental"
   },
   {
    "t": "The Blue Danube",
@@ -916,7 +947,11 @@
    "e": 2,
    "vibe": "Grand classical waltz.",
    "idea": "Satisfying slow-mo or ironic 'elegant' fail.",
-   "stat": "303K videos"
+   "stat": "303K videos",
+   "kind": "instrumental",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "platform": "Both",
+   "trend": "Reels: treat everyday chores like a grand ballet, e.g. a shop reset."
   },
   {
    "t": "Gangsta's Paradise",
@@ -1315,7 +1350,8 @@
    ],
    "e": 1,
    "vibe": "Lo-fi chill beat.",
-   "idea": "Study, work or reading session B-roll."
+   "idea": "Study, work or reading session B-roll.",
+   "kind": "instrumental"
   },
   {
    "t": "Natural Emotions",
@@ -1327,7 +1363,8 @@
    ],
    "e": 1,
    "vibe": "Lo-fi background vibes.",
-   "idea": "Behind-the-scenes or editing time-lapse."
+   "idea": "Behind-the-scenes or editing time-lapse.",
+   "kind": "instrumental"
   },
   {
    "t": "Let Her Go",
@@ -1573,6 +1610,357 @@
    "e": 4,
    "vibe": "Party classic.",
    "idea": "Birthday or celebration post."
+  },
+  {
+   "t": "Spectacular Moment",
+   "a": "life motivation",
+   "s": "Piano / Cinematic",
+   "src": "Revid viral chart #8",
+   "stat": "In 4 viral videos this month",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 2,
+   "kind": "instrumental",
+   "vibe": "Uplifting motivational backing track.",
+   "idea": "Caption reel over walking/running b-roll: one honest line about where you're at.",
+   "new": 1,
+   "good": [
+    "Caption reel",
+    "Talk-over",
+    "Progress / glow-up"
+   ]
+  },
+  {
+   "t": "RINGS",
+   "a": "Otis McDonald",
+   "s": "Hip-Hop / Rap",
+   "src": "Revid viral chart #13",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 3,
+   "kind": "instrumental",
+   "vibe": "Smooth, laid-back instrumental beat.",
+   "idea": "Day-in-the-life voiceover or desk/work b-roll.",
+   "new": 1
+  },
+  {
+   "t": "Piano Hush",
+   "a": "Sid Ferris",
+   "s": "Piano / Cinematic",
+   "src": "Revid viral chart #15",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "vibe": "Quiet, soft piano.",
+   "idea": "Talking-to-camera reflection — sits nicely under your voice.",
+   "new": 1
+  },
+  {
+   "t": "Sakura-lined street",
+   "a": "KCNX",
+   "s": "Jazz / Lounge",
+   "src": "Revid viral chart #12",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "vibe": "Gentle, calm lo-fi.",
+   "idea": "Slow morning routine or coffee b-roll.",
+   "new": 1
+  },
+  {
+   "t": "Kitchen Flowers",
+   "a": "Them & I",
+   "s": "Indie / Acoustic",
+   "src": "Revid viral chart #19",
+   "stat": "1.3M plays",
+   "moods": [
+    "chill",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Warm, homely indie.",
+   "idea": "Cosy at-home or cooking clip.",
+   "new": 1
+  },
+  {
+   "t": "donk",
+   "a": "stvrnaudio",
+   "s": "Electronic / House",
+   "src": "Revid viral chart #18",
+   "stat": "8.1M plays",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Bouncy, goofy beat.",
+   "idea": "Funny fast-cut skit or chaotic montage.",
+   "new": 1
+  },
+  {
+   "t": "NOW WHY IS IT FAMOUS",
+   "a": "g1zyx",
+   "s": "Hip-Hop / Rap",
+   "src": "Revid viral chart #16",
+   "stat": "3.2M plays",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Meme-y viral beat.",
+   "idea": "'Why is this so famous?' reaction to a local spot or product.",
+   "new": 1
+  },
+  {
+   "t": "Rotation (Game Mix)",
+   "a": "Stunna Girl",
+   "s": "Hip-Hop / Rap",
+   "src": "Revid viral chart #7",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Hype game-mix rap.",
+   "idea": "Gaming or quick-cut flex edit.",
+   "new": 1
+  },
+  {
+   "t": "Christmas Market",
+   "a": "Eoneun",
+   "s": "Christmas",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Rising",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "platform": "Reels",
+   "vibe": "Soft festive instrumental.",
+   "idea": "Slow walkthrough of the shop's Christmas setup.",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "new": 1
+  },
+  {
+   "t": "November",
+   "a": "Past Day",
+   "s": "Piano / Cinematic",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Rising",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "platform": "Reels",
+   "vibe": "Calm, grey-afternoon instrumental.",
+   "idea": "Cold-water dip, rainy walk or quiet morning reflection.",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "new": 1
+  },
+  {
+   "t": "It's Beginning to Look a Lot like Christmas",
+   "a": "Michael Bublé",
+   "s": "Christmas",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Peak",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 3,
+   "platform": "Reels",
+   "vibe": "Classic festive crooner.",
+   "idea": "Decorating time-lapse of the store or your room.",
+   "biz": "Major label — likely restricted on business accounts",
+   "new": 1
+  },
+  {
+   "t": "Stop The Wedding!",
+   "a": "Ashe",
+   "s": "Pop",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Rising",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "platform": "Reels",
+   "vibe": "Dramatic, cheeky pop.",
+   "idea": "'Stop everything!' hook for a launch, giveaway or big announcement.",
+   "trend": "Reels: playful “stop the wedding” hooks for drops and giveaways.",
+   "biz": "Major label — likely restricted on business accounts",
+   "new": 1
+  },
+  {
+   "t": "I Knew It, I Knew You",
+   "a": "Taylor Swift",
+   "s": "Pop",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Peak",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 3,
+   "platform": "Reels",
+   "vibe": "Warm Taylor pop.",
+   "idea": "Morning routine at a café ending on a candid laugh.",
+   "biz": "Major label — likely restricted on business accounts",
+   "new": 1
+  },
+  {
+   "t": "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)",
+   "a": "altego_music",
+   "s": "Electronic / House",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Peak",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "platform": "Reels",
+   "vibe": "Mashup party mix.",
+   "idea": "Reveal or before/after on the drop.",
+   "trend": "Reels: reveals, fitness Black Friday codes, teasers.",
+   "new": 1
+  },
+  {
+   "t": "Mr. Brightside",
+   "a": "The Killers",
+   "s": "Rock",
+   "src": "Reels trending (17–25 Nov)",
+   "stage": "Peak",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "platform": "Reels",
+   "vibe": "Anthemic indie-rock singalong.",
+   "idea": "Workout build-up or season recap montage.",
+   "biz": "Major label — likely restricted on business accounts",
+   "new": 1
+  },
+  {
+   "t": "“10-9-8-7-6-5-4-3-2-1”",
+   "a": "Original audio",
+   "s": "Trend sound",
+   "src": "Reels trend (HeyOrca, 13 Nov)",
+   "moods": [
+    "motivational",
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "Reels",
+   "vibe": "Countdown voice audio.",
+   "idea": "10 things you've learnt since starting your journey, one per number.",
+   "trend": "Match each number to a point, e.g. the perks of being a business owner.",
+   "new": 1,
+   "search": "10-9-8-7-6-5-4-3-2-1 audio"
+  },
+  {
+   "t": "“Oh you're a ___, can I see your work?”",
+   "a": "Original audio",
+   "s": "Trend sound",
+   "src": "Reels trend (HeyOrca, 13 Nov)",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "Reels",
+   "vibe": "Show-off-your-work audio.",
+   "idea": "'Oh you're a content creator? Can I see your work?' then your best edits on the beat.",
+   "trend": "Showcase your best work in time with the beat.",
+   "new": 1,
+   "search": "oh you're a can I see your work audio"
+  },
+  {
+   "t": "“I feel like I haven't done much this year”",
+   "a": "Original audio",
+   "s": "Trend sound",
+   "src": "TikTok trend (HeyOrca, 13 Nov)",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 2,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Reflective year-recap audio.",
+   "idea": "'Random day in [month]' clips of your 2026: 31 Hard, first posts, wins.",
+   "trend": "Year look-back: clips labelled “random day in [month]”.",
+   "new": 1,
+   "search": "I feel like I haven't done much this year"
+  },
+  {
+   "t": "“Trying to explain”",
+   "a": "Original audio",
+   "s": "Trend sound",
+   "src": "TikTok trend (HeyOrca, 13 Nov)",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Relatable comedy audio.",
+   "idea": "Things people assume you've already done (but you keep putting off).",
+   "trend": "Poke fun at things you keep putting off that people expect you've done.",
+   "new": 1,
+   "search": "trying to explain sound"
+  },
+  {
+   "t": "“You Paid Me No Mind”",
+   "a": "Original audio (Heaven)",
+   "s": "Trend sound",
+   "src": "TikTok trend · ~241K videos",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Dramatic 'ignored' lip-sync.",
+   "idea": "When customers walk straight past the new product display.",
+   "trend": "Lip-sync to being ignored; shops use it for products people walk past.",
+   "new": 1,
+   "search": "you paid me no mind sound"
+  },
+  {
+   "t": "“Camera Shy”",
+   "a": "Original audio (Niki)",
+   "s": "Trend sound",
+   "src": "TikTok trend · ~197K videos, rising",
+   "stage": "Rising",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Bouncy 'tsundere' audio.",
+   "idea": "Pretend to be camera-shy, then give in and go for it.",
+   "trend": "Someone (often a pet) acts grumpy at the camera, then gives in and dances.",
+   "new": 1,
+   "search": "camera shy tsundere sound"
   }
  ]
 }
