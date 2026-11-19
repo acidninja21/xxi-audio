@@ -21,7 +21,8 @@ Fetch every page below. Skip any that fails; never invent entries.
 
 ## 2. Build the list
 - Start from the current `tracks.json`. Keep every track still on a chart; update its `src`/`stat`.
-- Drop tracks that haven't appeared on any source for 7+ days (keep at most ~150 total).
+- Every track found on a source this run gets `"seen": "YYYY-MM-DD"` (today, Perth). A track with no `seen` counts as seen on 2026-11-19.
+- Drop tracks whose `seen` is more than 7 days old (keep at most ~150 total).
 - Add new tracks with `"new": 1`. Remove `new` from tracks that were already in the file.
 - `hot: 1` for the ~15 biggest (highest videos/day or #1–3 on AU/US/Global).
 - Order: hottest first (by videos/day, AU charts break ties), then the rest by chart rank.
