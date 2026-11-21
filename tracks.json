@@ -1,21 +1,23 @@
 {
- "updated": "2026-11-19T17:55:00+08:00",
- "updated_label": "19 Nov, 5:55pm",
+ "updated": "2026-11-22T06:55:00+08:00",
+ "updated_label": "22 Nov, 6:55am",
  "sources": [
-  "Tokchart (AU, US 19 Nov · CA, Global songs & sounds 18 Nov)",
-  "Soundcharts Global TikTok chart (week of 18 Nov)",
+  "Tokchart (US songs & sounds, AU & CA sounds, Global sounds 21 Nov · Global songs 20 Nov)",
+  "Soundcharts Global TikTok chart (week of 20 Nov)",
   "Metricool (16 Nov)",
   "SocialPilot TikTok (17–25 Nov)",
-  "Revid (18 Nov)",
+  "Revid (21 Nov)",
   "SocialPilot Instagram Reels (17–25 Nov)",
-  "HeyOrca (13 Nov)"
+  "HeyOrca (20 Nov)",
+  "vidIQ trending sounds (14-day)",
+  "NewEngen TikTok trends (20 Nov)"
  ],
  "tracks": [
   {
    "t": "My Moon My Man",
    "a": "FINNEAS",
    "s": "Indie / Acoustic",
-   "src": "Global sound #1 · AU sound #2 · US sound #1",
+   "src": "Global sound #1 & #2 · AU sound #1 · US sound #1 · US #8 · CA sound #2",
    "moods": [
     "romantic",
     "chill"
@@ -23,34 +25,68 @@
    "e": 2,
    "vibe": "Dreamy, tender Feist cover.",
    "idea": "Tease something new (a client win, a car part, a new service) and reveal it on the chorus.",
-   "stat": "~130K new videos a day",
+   "stat": "~116K new videos a day",
    "trend": "“My Moon My Man” soft launch: show a glimpse, reveal on the chorus.",
    "platform": "TikTok",
    "stage": "Peak",
-   "seen": "2026-11-19",
+   "seen": "2026-11-22",
    "hot": 1
   },
   {
-   "t": "Pujaan Hatiku",
-   "a": "Jummalik",
-   "s": "World",
-   "src": "Global #2 · Global sound #4",
+   "t": "Nocturne",
+   "a": "Feinberg",
+   "s": "Piano / Cinematic",
+   "src": "US #6",
+   "moods": [
+    "sad",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Moody soundtrack piano.",
+   "idea": "Late-night work session: laptop glow, quiet grind.",
+   "stat": "~49K a day · up 55%",
+   "kind": "instrumental",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "Mil y una Noches",
+   "a": "Maki",
+   "s": "Latin",
+   "src": "Global #9",
+   "stat": "~47K a day · up 11%",
    "moods": [
     "romantic",
-    "sad"
+    "playful"
    ],
-   "e": 2,
-   "vibe": "Emotional Indonesian ballad.",
-   "idea": "Sunset or beach slow-mo with a reflective line.",
-   "stat": "~56K new videos a day",
-   "seen": "2026-11-19",
+   "e": 3,
+   "vibe": "Flamenco-tinged Spanish pop.",
+   "idea": "Golden-hour walk-and-talk with a short life lesson caption.",
+   "seen": "2026-11-22",
+   "new": 1,
+   "hot": 1
+  },
+  {
+   "t": "'03 Bonnie & Clyde",
+   "a": "JAY-Z & Beyoncé",
+   "s": "Hip-Hop / Rap",
+   "src": "US #7",
+   "stat": "~46K a day · up 44%",
+   "moods": [
+    "luxury",
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Smooth ride-or-die duo rap.",
+   "idea": "Duo pull-up: two mates and the car, slow-mo walk.",
+   "seen": "2026-11-22",
    "hot": 1
   },
   {
    "t": "All I Want for Christmas Is You",
    "a": "Mariah Carey",
    "s": "Christmas",
-   "src": "US #4 · CA #6 · Global #7 · Revid #3",
+   "src": "US #3 · Global #7 · Soundcharts #5 · Revid #3",
    "moods": [
     "playful",
     "hype"
@@ -58,49 +94,17 @@
    "e": 4,
    "vibe": "The Christmas kickoff anthem.",
    "idea": "December kickoff: decorating the shop or desk, gift-guide videos.",
-   "stat": "~48K new videos a day",
+   "stat": "~40K a day · up 65%",
    "trend": "Brands' holiday gift guides.",
    "stage": "Peak",
-   "seen": "2026-11-19",
-   "hot": 1
-  },
-  {
-   "t": "Rechazame",
-   "a": "Prince Royce",
-   "s": "Latin",
-   "src": "Global #1 · CA #5 · Global sound #10",
-   "moods": [
-    "romantic",
-    "playful"
-   ],
-   "e": 3,
-   "vibe": "Smooth bachata groove.",
-   "idea": "Comedy skit: 'when the client says…' using the lyric clip.",
-   "stat": "~46K a day · up 30%",
-   "trend": "Lyric-clip comedy skits.",
-   "seen": "2026-11-19",
-   "hot": 1
-  },
-  {
-   "t": "Dilruba Dilnasheen",
-   "a": "Siddhant Kaushal, Rito Riba",
-   "s": "World",
-   "src": "Global #4 · AU #5",
-   "moods": [
-    "romantic"
-   ],
-   "e": 3,
-   "vibe": "Romantic South Asian pop.",
-   "idea": "Couple or friendship montage, slow-mo moments.",
-   "stat": "~45K new videos a day",
-   "seen": "2026-11-19",
+   "seen": "2026-11-22",
    "hot": 1
   },
   {
    "t": "Last Christmas",
    "a": "Wham!",
    "s": "Christmas",
-   "src": "CA #3 · US #3 · Global #9 · Reels",
+   "src": "US #5 · Reels Peak (944K Reels)",
    "moods": [
     "romantic",
     "chill"
@@ -108,18 +112,53 @@
    "e": 3,
    "vibe": "Nostalgic Christmas pop.",
    "idea": "Year-in-review recap of your wins.",
-   "stat": "~45K a day · up 89%",
+   "stat": "~36K a day · up 82%",
    "platform": "Both",
    "trend": "Reels: lights switching on, a shopfront going from normal to Christmas.",
    "stage": "Peak",
-   "seen": "2026-11-19",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "Flower In A Hurricane",
+   "a": "Justice, Tame Impala, SZA, King Gizzard & the Lizard Wizard",
+   "s": "Electronic / House",
+   "src": "Global #1 · US #2 · Global sound #6 · AU sound #8 · US sound #8 · CA sound #7 · vidIQ #3",
+   "stat": "~34K a day · up 52%",
+   "moods": [
+    "hype",
+    "luxury"
+   ],
+   "e": 4,
+   "vibe": "Psychedelic electro-pop from the GTA VI score.",
+   "idea": "Night car roll-by or city drive, cut to the beat.",
+   "seen": "2026-11-22",
+   "new": 1,
+   "hot": 1
+  },
+  {
+   "t": "Living in the Dark (Evil Larry Version)",
+   "a": "Myuu",
+   "s": "Piano / Cinematic",
+   "src": "US #1 · US sound #3",
+   "moods": [
+    "sad",
+    "playful"
+   ],
+   "e": 2,
+   "vibe": "Creepy piano with a meme twist.",
+   "idea": "Dramatic 'villain' reveal or spooky joke.",
+   "stat": "~32K a day · up 2%",
+   "kind": "instrumental",
+   "seen": "2026-11-22",
+   "trend": "“POV: you're the villain but…”: slow dramatic chair turn, then an awkward reveal.",
    "hot": 1
   },
   {
    "t": "Time",
    "a": "Pink Floyd",
    "s": "Rock",
-   "src": "AU #1 · US #1 · CA #1 · Global #5",
+   "src": "US #4 · US sound #9 (Krissy's PNW) · Reels Peak (467K)",
    "moods": [
     "motivational",
     "sad"
@@ -127,12 +166,59 @@
    "e": 3,
    "vibe": "Ticking clocks, slow cinematic build.",
    "idea": "Recreate an old photo of you in the same spot, cut between then and now.",
-   "stat": "~44K new videos a day",
+   "stat": "~29K a day · up 24%",
    "trend": "“Same Spot, Years Apart” on TikTok. On Reels: childhood photo then present-day you, or day one vs the team today.",
    "platform": "Both",
    "biz": "Major label — likely restricted on business accounts",
    "stage": "Peak",
-   "seen": "2026-11-19",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "Pujaan Hatiku",
+   "a": "Jummalik",
+   "s": "World",
+   "src": "Global #4 · Global sound #9",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Emotional Indonesian ballad.",
+   "idea": "Sunset or beach slow-mo with a reflective line.",
+   "stat": "~23K a day · up 75%",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "AkpakO Bum Bum",
+   "a": "Terry G",
+   "s": "World",
+   "src": "Global #10",
+   "stat": "~22K a day · up 65%",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Chaotic, loud Nigerian street-hop energy.",
+   "idea": "Gym PR attempt, beat drop on the lift.",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "Dilruba Dilnasheen",
+   "a": "Siddhant Kaushal, Rito Riba",
+   "s": "World",
+   "src": "Global #5",
+   "moods": [
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Romantic South Asian pop.",
+   "idea": "Couple or friendship montage, slow-mo moments.",
+   "stat": "~15K a day · up 60%",
+   "seen": "2026-11-22",
    "hot": 1
   },
   {
@@ -147,32 +233,140 @@
    "e": 4,
    "vibe": "Upbeat Spanish pop, rising fast.",
    "idea": "Get in early: 'rate my setup' or a quick before/after.",
-   "stat": "~43K a day · up 79%",
-   "seen": "2026-11-19",
+   "stat": "~12K a day · up 50%",
+   "seen": "2026-11-22",
    "hot": 1
   },
   {
-   "t": "Nocturne",
-   "a": "Feinberg",
-   "s": "Piano / Cinematic",
-   "src": "US #2",
+   "t": "Rechazame",
+   "a": "Prince Royce",
+   "s": "Latin",
+   "src": "Global #2",
    "moods": [
-    "sad",
-    "luxury"
+    "romantic",
+    "playful"
    ],
-   "e": 1,
-   "vibe": "Moody soundtrack piano.",
-   "idea": "Late-night work session: laptop glow, quiet grind.",
-   "stat": "~39K new videos a day",
-   "kind": "instrumental",
-   "seen": "2026-11-19",
+   "e": 3,
+   "vibe": "Smooth bachata groove.",
+   "idea": "Comedy skit: 'when the client says…' using the lyric clip.",
+   "stat": "~2K a day · up 9%",
+   "trend": "Lyric-clip comedy skits.",
+   "seen": "2026-11-22",
    "hot": 1
+  },
+  {
+   "t": "Rockin' Around The Christmas Tree",
+   "a": "Brenda Lee",
+   "s": "Christmas",
+   "src": "Soundcharts #1 · Revid #2 · vidIQ #6",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Upbeat retro Christmas.",
+   "idea": "Team or shop decorating time-lapse.",
+   "seen": "2026-11-22",
+   "hot": 1
+  },
+  {
+   "t": "Aura Farming (Slowed)",
+   "a": "Mustafa Saboori",
+   "s": "Slowed & Sped up",
+   "src": "Global sound #10",
+   "moods": [
+    "luxury",
+    "motivational"
+   ],
+   "e": 2,
+   "vibe": "Cool, calm 'aura' edit sound.",
+   "idea": "Effortless-cool edit: no talking, just presence.",
+   "kind": "instrumental",
+   "seen": "2026-11-22",
+   "stat": "~24K a day · up 19%"
+  },
+  {
+   "t": "Those Eyes (Sped Up)",
+   "a": "New West",
+   "s": "Slowed & Sped up",
+   "src": "Global sound #7",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Sped-up love song.",
+   "idea": "Memory montage or 'someone who…' text overlay.",
+   "stat": "~16K new videos a day",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "BbY WOW",
+   "a": "Rusowsky, KAROL G, Judeline",
+   "s": "Latin",
+   "src": "Global #8",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Latin urban, catchy hook.",
+   "idea": "Dance or glam reveal. Rising, so get in early.",
+   "stat": "~14K a day · up 63%",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Baby",
+   "a": "Justin Bieber & Ludacris",
+   "s": "Pop",
+   "src": "Global #6",
+   "stat": "~13K a day · up 78%",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 4,
+   "vibe": "2010 throwback teen-pop.",
+   "idea": "Then-vs-now glow-up: 2010 photo to today.",
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Es Válido",
+   "a": "Orquesta Calibre",
+   "s": "Latin",
+   "src": "Global sound #8",
+   "stat": "~11K a day · up 16%",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Brassy, upbeat salsa.",
+   "idea": "Behind-the-scenes at a local restaurant or bar, cut on the horns.",
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Vibin",
+   "a": "Wxoda",
+   "s": "Hip-Hop / Rap",
+   "src": "US #10 · US sound #10",
+   "moods": [
+    "chill",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Easy-going hip-hop beat.",
+   "idea": "Casual day-in-the-life, walk-and-talk clips.",
+   "stat": "~6K a day · up 26%",
+   "seen": "2026-11-22"
   },
   {
    "t": "Stop The Wedding!",
    "a": "Ashe",
    "s": "Pop",
-   "src": "AU #10 · Reels trending (17–25 Nov)",
+   "src": "Reels Rising (82K Reels) · vidIQ #23",
    "stage": "Rising",
    "moods": [
     "playful"
@@ -183,32 +377,14 @@
    "idea": "'Stop everything!' hook for a launch, giveaway or big announcement.",
    "trend": "Reels: playful “stop the wedding” hooks for drops and giveaways.",
    "biz": "Major label — likely restricted on business accounts",
-   "stat": "~38K a day · up 80%",
-   "seen": "2026-11-19",
-   "hot": 1
-  },
-  {
-   "t": "I'm with You",
-   "a": "Avril Lavigne",
-   "s": "Rock",
-   "src": "AU #2",
-   "stat": "~37K new videos a day",
-   "moods": [
-    "sad",
-    "motivational"
-   ],
-   "e": 3,
-   "vibe": "Lonely, soaring 2000s pop-rock ballad.",
-   "idea": "Night drive alone, then cut to the comeback moment.",
-   "seen": "2026-11-19",
-   "new": 1,
-   "hot": 1
+   "stat": "82K videos",
+   "seen": "2026-11-22"
   },
   {
    "t": "Housewife",
    "a": "Tate McRae",
    "s": "Pop",
-   "src": "AU #4 · CA #4 · US #9 · Revid #21",
+   "src": "AU sound #10 · Revid #6",
    "moods": [
     "hype",
     "playful",
@@ -217,48 +393,15 @@
    "e": 5,
    "vibe": "Bold, glam, main-character pop.",
    "idea": "Outfit or setup transformation. Cut every change on the beat.",
-   "stat": "~35K new videos a day",
+   "stat": "700K videos",
    "trend": "POV lip-syncs and glow-up transformations.",
-   "seen": "2026-11-19",
-   "hot": 1
-  },
-  {
-   "t": "Montagem da Chupeta",
-   "a": "Lthiago",
-   "s": "Phonk / Funk",
-   "src": "Global sound #3",
-   "moods": [
-    "hype",
-    "motivational"
-   ],
-   "e": 5,
-   "vibe": "Hard-hitting Brazilian funk.",
-   "idea": "Gym or car edit: speed ramps, hard cuts, flash on the drop.",
-   "stat": "~29K new videos a day",
-   "kind": "instrumental",
-   "seen": "2026-11-19",
-   "hot": 1
-  },
-  {
-   "t": "Choosin' Texas",
-   "a": "Ella Langley",
-   "s": "Country",
-   "src": "AU #9",
-   "moods": [
-    "playful"
-   ],
-   "e": 3,
-   "vibe": "Country twang storytelling.",
-   "idea": "Storytime with captions, road-trip clips.",
-   "stat": "~26K new videos a day",
-   "seen": "2026-11-19",
-   "hot": 1
+   "seen": "2026-11-22"
   },
   {
    "t": "Paper Moon Static",
    "a": "Marnie Cusk",
    "s": "Pop",
-   "src": "Revid #1 · CA #7 · AU sound #10",
+   "src": "Revid #1 · vidIQ #5",
    "moods": [
     "chill",
     "sad"
@@ -267,14 +410,13 @@
    "vibe": "Hazy, nostalgic pop.",
    "idea": "Moody night B-roll with one line of text.",
    "stat": "2M videos",
-   "seen": "2026-11-19",
-   "hot": 1
+   "seen": "2026-11-22"
   },
   {
    "t": "Chopin Nocturne No. 2",
    "a": "moshimo sound design",
    "s": "Piano / Cinematic",
-   "src": "US sounds #8 · Revid #9",
+   "src": "vidIQ #2",
    "moods": [
     "sad",
     "luxury",
@@ -285,8 +427,874 @@
    "idea": "Black & gold aesthetic B-roll. Slow pans, a quote on screen.",
    "stat": "7M videos",
    "kind": "instrumental",
-   "seen": "2026-11-19",
-   "hot": 1
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Let It Snow! Let It Snow! Let It Snow!",
+   "a": "Dean Martin",
+   "s": "Christmas",
+   "src": "Revid #7",
+   "moods": [
+    "chill",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Cosy vintage crooner.",
+   "idea": "Cosy festive B-roll or a calm 'end of year' reflection.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "The Blue Danube",
+   "a": "Johann Strauss II (Alessandro Vieri)",
+   "s": "Piano / Cinematic",
+   "src": "Reels Rising (50K Reels)",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 2,
+   "vibe": "Grand classical waltz.",
+   "idea": "Satisfying slow-mo or ironic 'elegant' fail.",
+   "stat": "50K videos",
+   "kind": "instrumental",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "platform": "Both",
+   "trend": "Film ordinary tasks like a grand ballet.",
+   "stage": "Rising",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Sunset in Girona",
+   "a": "Noah Preminger & Max Light",
+   "s": "Jazz / Lounge",
+   "src": "Metricool #1",
+   "moods": [
+    "romantic",
+    "chill",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Smooth, cosy jazz.",
+   "idea": "Travel or lifestyle clips. Suits black & gold.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "You're Under Arrest",
+   "a": "ILLIT",
+   "s": "K-Pop",
+   "src": "Revid #4 · vidIQ #24 · TikTok Rising (110K)",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Cute, catchy K-pop hook.",
+   "idea": "Do the hook in one take, pass it to a mate or coworker.",
+   "stat": "110K videos",
+   "trend": "“You're Under Arrest” challenge: perform the hook, pass it on.",
+   "stage": "Rising",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Self Aware",
+   "a": "Mark Allan Wolfe",
+   "s": "Piano / Cinematic",
+   "src": "Metricool #2",
+   "moods": [
+    "luxury",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Hypnotic, mysterious instrumental.",
+   "idea": "Room or desk makeover, night vlog.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Time Back",
+   "a": "Sinny & 7vvch",
+   "s": "Electronic / House",
+   "src": "Metricool #3",
+   "moods": [
+    "motivational",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Slow-building atmospheric techno.",
+   "idea": "Build-up then reveal: launch, transformation, results.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Angel Of My Dreams",
+   "a": "JADE",
+   "s": "Pop",
+   "src": "NewEngen trend (20 Nov)",
+   "moods": [
+    "luxury",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Runway pop.",
+   "idea": "Runway walk-in or product 'turn' reveal.",
+   "trend": "Kylie runway hip-pop-and-turn recreations.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Take Me (To The Moon)",
+   "a": "Ian Asher & D A N N Y",
+   "s": "Electronic / House",
+   "src": "Metricool #4",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Energetic EDM.",
+   "idea": "Fast transitions or light-show edits.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "The Christmas Song",
+   "a": "Nat King Cole Trio",
+   "s": "Christmas",
+   "src": "Revid #5 · Soundcharts #90",
+   "moods": [
+    "chill",
+    "romantic",
+    "luxury"
+   ],
+   "e": 1,
+   "vibe": "Warm, classy vintage Christmas.",
+   "idea": "Slow festive aesthetic: lights, coffee, gift wrapping.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Final Game Showdown",
+   "a": "ProdByLucK",
+   "s": "Piano / Cinematic",
+   "src": "Metricool #5",
+   "moods": [
+    "motivational",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Suspense, last-second tension.",
+   "idea": "Dramatic comeback: 'Day 1 vs Day 31'.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Le Sable & Les Vagues",
+   "a": "Tengo John",
+   "s": "Hip-Hop / Rap",
+   "src": "Metricool #6",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 2,
+   "vibe": "Mellow French hip-hop.",
+   "idea": "Scenic views, beach or travel edits.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Dame Hombro",
+   "a": "Bulin 47",
+   "s": "Latin",
+   "src": "Revid #19 · vidIQ #36",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Laid-back shoulder-bounce beat.",
+   "idea": "Quick freestyle bounce with the team or mates.",
+   "trend": "Freestyle shoulder-bounce dance.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Take Me Down",
+   "a": "LEL",
+   "s": "Electronic / House",
+   "src": "Metricool #7",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 3,
+   "vibe": "Dreamy house-pop.",
+   "idea": "Travel and aesthetic edits.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Too Self Aware",
+   "a": "Star Slinger",
+   "s": "Electronic / House",
+   "src": "Metricool #8",
+   "moods": [
+    "chill",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Laid-back house/garage.",
+   "idea": "Outfit reveals or light funny clips.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Spectacular Moment",
+   "a": "life motivation",
+   "s": "Piano / Cinematic",
+   "src": "Revid #9",
+   "stat": "In 4 viral videos this month",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 2,
+   "kind": "instrumental",
+   "vibe": "Uplifting motivational backing track.",
+   "idea": "Caption reel over walking/running b-roll: one honest line about where you're at.",
+   "good": [
+    "Caption reel",
+    "Talk-over",
+    "Progress / glow-up"
+   ],
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "What More Can I Say",
+   "a": "Teddy Swims",
+   "s": "R&B / Soul",
+   "src": "Metricool #9",
+   "moods": [
+    "sad",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Soulful, bluesy, emotional.",
+   "idea": "Personal story or reflection with captions.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Underneath the Tree",
+   "a": "Kelly Clarkson",
+   "s": "Christmas",
+   "src": "Soundcharts #87",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 4,
+   "vibe": "Big, joyful Christmas pop.",
+   "idea": "Gift reveal or holiday plans montage.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "V-Cut",
+   "a": "Ghetto Baby Boom",
+   "s": "Hip-Hop / Rap",
+   "src": "Metricool #10",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "Raw underground rap.",
+   "idea": "Hard-cut gym or car edit.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Piano Hush",
+   "a": "Sid Ferris",
+   "s": "Piano / Cinematic",
+   "src": "Revid #17",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "vibe": "Quiet, soft piano.",
+   "idea": "Talking-to-camera reflection — sits nicely under your voice.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Somewhere in Brooklyn",
+   "a": "Bruno Mars",
+   "s": "Pop",
+   "src": "Soundcharts #35",
+   "moods": [
+    "romantic",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Upbeat Bruno storytelling.",
+   "idea": "Storytime of how you met someone or found something.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Mooo!",
+   "a": "Doja Cat",
+   "s": "Hip-Hop / Rap",
+   "src": "Soundcharts #17 · vidIQ #16",
+   "moods": [
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Silly meme rap.",
+   "idea": "Pure comedy: pets, mates, chaos.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "donk",
+   "a": "stvrnaudio",
+   "s": "Electronic / House",
+   "src": "Revid #18",
+   "stat": "8.1M plays",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Bouncy, goofy beat.",
+   "idea": "Funny fast-cut skit or chaotic montage.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Uska Hi Bana",
+   "a": "Arijit Singh",
+   "s": "World",
+   "src": "Soundcharts #15",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Emotional Bollywood ballad.",
+   "idea": "Heartfelt montage or slow memories.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "The One That Got Away (Acoustic)",
+   "a": "Katy Perry",
+   "s": "Pop",
+   "src": "Soundcharts #3",
+   "moods": [
+    "sad",
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Stripped-back nostalgia.",
+   "idea": "'What could've been' reflective post.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "No Type",
+   "a": "Rae Sremmurd",
+   "s": "Hip-Hop / Rap",
+   "src": "Soundcharts #54",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Swaggy 2010s rap.",
+   "idea": "Fit check or 'I don't have a type' skit.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "November Rain",
+   "a": "Guns N' Roses",
+   "s": "Rock",
+   "src": "Soundcharts #39",
+   "moods": [
+    "sad",
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Epic rock ballad.",
+   "idea": "Dramatic slow-mo or moody rainy-day edit.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "On The Floor",
+   "a": "Jennifer Lopez & Pitbull",
+   "s": "Pop",
+   "src": "Soundcharts #25",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "vibe": "Party throwback.",
+   "idea": "Party or night-out montage.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "QUIERES SER EDITOR (Slowed)",
+   "a": "Launch13",
+   "s": "Slowed & Sped up",
+   "src": "Soundcharts #70",
+   "moods": [
+    "luxury",
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Moody editor sound.",
+   "idea": "Show off an edit: raw clip vs finished edit.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Alors on Danse",
+   "a": "Stromae",
+   "s": "Electronic / House",
+   "src": "Soundcharts #34",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 4,
+   "vibe": "Euro-dance classic.",
+   "idea": "Dance it out after a long day.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "I Get Lonely",
+   "a": "Drake",
+   "s": "Hip-Hop / Rap",
+   "src": "Soundcharts #36",
+   "moods": [
+    "sad",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Late-night R&B-rap.",
+   "idea": "Late-night solo drive.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Fire on Fire",
+   "a": "Sam Smith",
+   "s": "Pop",
+   "src": "Soundcharts #80",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Tender, cinematic ballad.",
+   "idea": "Couple or family montage.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Coming Up Roses",
+   "a": "Harry Styles",
+   "s": "Pop",
+   "src": "Reels Rising (116K) · Soundcharts #33",
+   "moods": [
+    "romantic"
+   ],
+   "e": 2,
+   "vibe": "Sweet, swoony romance.",
+   "idea": "'Small wins' montage of your week.",
+   "platform": "Reels",
+   "stage": "Rising",
+   "trend": "Reels: “small wins” montages and candid moments.",
+   "biz": "Major label — likely restricted on business accounts",
+   "stat": "116K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Iris",
+   "a": "The Goo Goo Dolls",
+   "s": "Rock",
+   "src": "Soundcharts #32",
+   "moods": [
+    "romantic",
+    "sad"
+   ],
+   "e": 3,
+   "vibe": "Big 90s rock ballad.",
+   "idea": "Nostalgic memories montage.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Runaway",
+   "a": "AURORA",
+   "s": "Indie / Acoustic",
+   "src": "Soundcharts #53",
+   "moods": [
+    "sad",
+    "luxury"
+   ],
+   "e": 2,
+   "vibe": "Ethereal, haunting.",
+   "idea": "Nature or moody aesthetic edits.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "PINKY UP",
+   "a": "KATSEYE",
+   "s": "K-Pop",
+   "src": "Revid #24",
+   "moods": [
+    "playful",
+    "hype",
+    "luxury"
+   ],
+   "e": 4,
+   "vibe": "Sassy girl-group pop.",
+   "idea": "'Pinky up' fancy aesthetic: coffee, desk, glam moments.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Stargazing (Slowed)",
+   "a": "Marcelo De Carvalho",
+   "s": "Slowed & Sped up",
+   "src": "Revid #15",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "vibe": "Slowed, floaty.",
+   "idea": "Night-sky or night-drive B-roll.",
+   "stat": "4.2M plays",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "you (super slowed)",
+   "a": "d2s1",
+   "s": "Slowed & Sped up",
+   "src": "Revid #22",
+   "moods": [
+    "sad",
+    "chill"
+   ],
+   "e": 1,
+   "vibe": "Super slowed, heavy feels.",
+   "idea": "Late-night thoughts text post.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Saxophones getting louder (Sped Up)",
+   "a": "AntonioVivald",
+   "s": "Slowed & Sped up",
+   "src": "vidIQ #7",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Building, comedic sax.",
+   "idea": "Escalating chaos: 'my to-do list as the day goes on'.",
+   "kind": "instrumental",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Let Go",
+   "a": "Ark Patrol",
+   "s": "Electronic / House",
+   "src": "Revid #8",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 2,
+   "vibe": "Floaty, feel-good electronic.",
+   "idea": "Sunset drive or beach day.",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Christmas Market",
+   "a": "Eoneun",
+   "s": "Christmas",
+   "src": "Reels Rising (89K)",
+   "stage": "Rising",
+   "moods": [
+    "chill",
+    "luxury"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "platform": "Reels",
+   "vibe": "Soft festive instrumental.",
+   "idea": "Slow walkthrough of the shop's Christmas setup.",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "stat": "89K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "November",
+   "a": "Past Day",
+   "s": "Piano / Cinematic",
+   "src": "Reels Rising (142K)",
+   "stage": "Rising",
+   "moods": [
+    "chill",
+    "sad"
+   ],
+   "e": 1,
+   "kind": "instrumental",
+   "platform": "Reels",
+   "vibe": "Calm, grey-afternoon instrumental.",
+   "idea": "Cold-water dip, rainy walk or quiet morning reflection.",
+   "biz": "Best bet for business (instrumental) — check in-app",
+   "stat": "142K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "It's Beginning to Look a Lot like Christmas",
+   "a": "Michael Bublé",
+   "s": "Christmas",
+   "src": "Reels Peak (1.8M)",
+   "stage": "Peak",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 3,
+   "platform": "Reels",
+   "vibe": "Classic festive crooner.",
+   "idea": "Decorating time-lapse of the store or your room.",
+   "biz": "Major label — likely restricted on business accounts",
+   "stat": "1.8M videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "I Knew It, I Knew You",
+   "a": "Taylor Swift",
+   "s": "Pop",
+   "src": "Reels Peak (275K)",
+   "stage": "Peak",
+   "moods": [
+    "romantic",
+    "chill"
+   ],
+   "e": 3,
+   "platform": "Reels",
+   "vibe": "Warm Taylor pop.",
+   "idea": "Morning routine at a café ending on a candid laugh.",
+   "biz": "Major label — likely restricted on business accounts",
+   "stat": "275K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)",
+   "a": "altego_music",
+   "s": "Electronic / House",
+   "src": "Reels Peak (674K)",
+   "stage": "Peak",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 5,
+   "platform": "Reels",
+   "vibe": "Mashup party mix.",
+   "idea": "Reveal or before/after on the drop.",
+   "trend": "Reels: reveals, fitness Black Friday codes, teasers.",
+   "stat": "674K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "Mr. Brightside",
+   "a": "The Killers",
+   "s": "Rock",
+   "src": "Reels Peak (102K)",
+   "stage": "Peak",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "platform": "Reels",
+   "vibe": "Anthemic indie-rock singalong.",
+   "idea": "Workout build-up or season recap montage.",
+   "biz": "Major label — likely restricted on business accounts",
+   "stat": "102K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "“I feel like I haven't done much this year”",
+   "a": "Original audio",
+   "s": "Trend sound",
+   "src": "Reels trend (HeyOrca, 20 Nov)",
+   "moods": [
+    "motivational",
+    "sad"
+   ],
+   "e": 2,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Reflective year-recap audio.",
+   "idea": "'Random day in [month]' clips of your 2026: 31 Hard, first posts, wins.",
+   "trend": "Year look-back: clips labelled “random day in [month]”.",
+   "search": "I feel like I haven't done much this year",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "“You Paid Me No Mind”",
+   "a": "Original audio (Heaven)",
+   "s": "Trend sound",
+   "src": "TikTok trend · Peak · vidIQ #39",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Dramatic 'ignored' lip-sync.",
+   "idea": "When customers walk straight past the new product display.",
+   "trend": "Lip-sync to being ignored; shops use it for products people walk past.",
+   "search": "you paid me no mind sound",
+   "stat": "241K videos",
+   "stage": "Peak",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "“Camera Shy”",
+   "a": "Original audio (Niki)",
+   "s": "Trend sound",
+   "src": "TikTok trend · Rising · vidIQ #8",
+   "stage": "Rising",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "kind": "original",
+   "platform": "TikTok",
+   "vibe": "Bouncy 'tsundere' audio.",
+   "idea": "Pretend to be camera-shy, then give in and go for it.",
+   "trend": "Someone (often a pet) acts grumpy at the camera, then gives in and dances.",
+   "search": "camera shy tsundere sound",
+   "stat": "197K videos",
+   "seen": "2026-11-22"
+  },
+  {
+   "t": "GTA San Andreas Theme (Remake)",
+   "a": "Ben Morfitt (SquidPhysics)",
+   "s": "Hip-Hop / Rap",
+   "src": "Soundcharts #7",
+   "kind": "instrumental",
+   "moods": [
+    "hype",
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Iconic West Coast game theme, instrumental.",
+   "idea": "Car edit: rolling up to a meet like a mission start.",
+   "good": [
+    "Car edit"
+   ],
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Cornfield Chase",
+   "a": "Hans Zimmer",
+   "s": "Piano / Cinematic",
+   "src": "Soundcharts #68",
+   "kind": "instrumental",
+   "moods": [
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Soaring Interstellar organ build.",
+   "idea": "Caption reel on long-term goals over sunrise b-roll.",
+   "good": [
+    "Caption reel",
+    "Progress / glow-up"
+   ],
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Good Time",
+   "a": "Owl City & Carly Rae Jepsen",
+   "s": "Pop",
+   "src": "Soundcharts #4",
+   "moods": [
+    "playful",
+    "hype"
+   ],
+   "e": 4,
+   "vibe": "Sunny, feel-good 2012 pop.",
+   "idea": "Fun team day montage for a local business.",
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Yeah!",
+   "a": "Usher & Lil Jon",
+   "s": "R&B / Soul",
+   "src": "Soundcharts #6",
+   "moods": [
+    "hype"
+   ],
+   "e": 5,
+   "vibe": "2000s club banger.",
+   "idea": "Gym PR attempt, drop the lift on the beat.",
+   "good": [
+    "Gym"
+   ],
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Santa Tell Me",
+   "a": "Ariana Grande",
+   "s": "Christmas",
+   "src": "Soundcharts #27 · Reels (Nov)",
+   "moods": [
+    "playful",
+    "romantic"
+   ],
+   "e": 3,
+   "vibe": "Modern pop Christmas bop.",
+   "idea": "Countdown-to-Christmas offer reveal for a client.",
+   "trend": "Countdowns and cosy movie-night clips on Reels.",
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Mysterious and Sad",
+   "a": "Beats by Lucky",
+   "s": "Piano / Cinematic",
+   "src": "Revid #3 (rising)",
+   "kind": "instrumental",
+   "moods": [
+    "sad",
+    "chill"
+   ],
+   "e": 2,
+   "vibe": "Tense, moody background beat.",
+   "idea": "Talk-over storytime: a mistake that cost you, and the lesson.",
+   "trend": "Background for drama/gossip and 'watch till the end' talking clips.",
+   "good": [
+    "Talk-over"
+   ],
+   "seen": "2026-11-22",
+   "new": 1
+  },
+  {
+   "t": "Whatcha Say",
+   "a": "Jason Derulo",
+   "s": "R&B / Soul",
+   "src": "NewEngen trend (20 Nov)",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Imogen Heap-sampled 2009 R&B.",
+   "idea": "Staged office side-eye skit for a business page.",
+   "trend": "Gossip Girl Thanksgiving: staged dinner-table side-eye moments.",
+   "platform": "TikTok",
+   "seen": "2026-11-22",
+   "new": 1
   },
   {
    "t": "Little Things",
@@ -302,7 +1310,8 @@
    "vibe": "Soft, sentimental piano.",
    "idea": "'Small wins this month' list with text on screen.",
    "stat": "~100K a day · 10M videos",
-   "kind": "instrumental"
+   "kind": "instrumental",
+   "seen": "2026-11-19"
   },
   {
    "t": "Futile Devices (Orchestral Version)",
@@ -317,7 +1326,53 @@
    "vibe": "Sweeping, emotional orchestral.",
    "idea": "Text-over-video: 'things I'd tell myself a year ago'.",
    "stat": "~42K new videos a day",
-   "kind": "instrumental"
+   "kind": "instrumental",
+   "seen": "2026-11-19"
+  },
+  {
+   "t": "I'm with You",
+   "a": "Avril Lavigne",
+   "s": "Rock",
+   "src": "AU #2",
+   "stat": "~37K new videos a day",
+   "moods": [
+    "sad",
+    "motivational"
+   ],
+   "e": 3,
+   "vibe": "Lonely, soaring 2000s pop-rock ballad.",
+   "idea": "Night drive alone, then cut to the comeback moment.",
+   "seen": "2026-11-19"
+  },
+  {
+   "t": "Montagem da Chupeta",
+   "a": "Lthiago",
+   "s": "Phonk / Funk",
+   "src": "Global sound #3",
+   "moods": [
+    "hype",
+    "motivational"
+   ],
+   "e": 5,
+   "vibe": "Hard-hitting Brazilian funk.",
+   "idea": "Gym or car edit: speed ramps, hard cuts, flash on the drop.",
+   "stat": "~29K new videos a day",
+   "kind": "instrumental",
+   "seen": "2026-11-19"
+  },
+  {
+   "t": "Choosin' Texas",
+   "a": "Ella Langley",
+   "s": "Country",
+   "src": "AU #9",
+   "moods": [
+    "playful"
+   ],
+   "e": 3,
+   "vibe": "Country twang storytelling.",
+   "idea": "Storytime with captions, road-trip clips.",
+   "stat": "~26K new videos a day",
+   "seen": "2026-11-19"
   },
   {
    "t": "Strange Bit",
@@ -350,37 +1405,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Those Eyes (Sped Up)",
-   "a": "New West",
-   "s": "Slowed & Sped up",
-   "src": "Global sound #9",
-   "moods": [
-    "romantic",
-    "sad"
-   ],
-   "e": 2,
-   "vibe": "Sped-up love song.",
-   "idea": "Memory montage or 'someone who…' text overlay.",
-   "stat": "~23K new videos a day",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Living in the Dark (Evil Larry Version)",
-   "a": "Myuu",
-   "s": "Piano / Cinematic",
-   "src": "US #5 · US sounds #7",
-   "moods": [
-    "sad",
-    "playful"
-   ],
-   "e": 2,
-   "vibe": "Creepy piano with a meme twist.",
-   "idea": "Dramatic 'villain' reveal or spooky joke.",
-   "stat": "~22K a day · up 62%",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Severina (Racing Remix)",
    "a": "Italiana",
    "s": "Phonk / Funk",
@@ -392,52 +1416,6 @@
    "vibe": "Fast racing remix.",
    "idea": "Car edit with speed ramps. Get in early.",
    "stat": "~18K a day · up 23%",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "'03 Bonnie & Clyde",
-   "a": "JAY-Z & Beyoncé",
-   "s": "Hip-Hop / Rap",
-   "src": "US #7",
-   "stat": "~17K a day · up 51%",
-   "moods": [
-    "luxury",
-    "romantic"
-   ],
-   "e": 3,
-   "vibe": "Smooth ride-or-die duo rap.",
-   "idea": "Duo pull-up: two mates and the car, slow-mo walk.",
-   "seen": "2026-11-19",
-   "new": 1
-  },
-  {
-   "t": "Let It Snow! Let It Snow! Let It Snow!",
-   "a": "Dean Martin",
-   "s": "Christmas",
-   "src": "CA #9 · Revid #20",
-   "moods": [
-    "chill",
-    "romantic"
-   ],
-   "e": 2,
-   "vibe": "Cosy vintage crooner.",
-   "idea": "Cosy festive B-roll or a calm 'end of year' reflection.",
-   "stat": "~16K a day · up 77%",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "BbY WOW",
-   "a": "Rusowsky, KAROL G, Judeline",
-   "s": "Latin",
-   "src": "Global #6 · AU #7",
-   "moods": [
-    "hype",
-    "playful"
-   ],
-   "e": 4,
-   "vibe": "Latin urban, catchy hook.",
-   "idea": "Dance or glam reveal. Rising, so get in early.",
-   "stat": "~15K a day · up 58%",
    "seen": "2026-11-19"
   },
   {
@@ -453,8 +1431,7 @@
    "e": 3,
    "vibe": "Sweet, catchy love-song pop.",
    "idea": "Day-with-my-partner montage, cuts on each line.",
-   "seen": "2026-11-19",
-   "new": 1
+   "seen": "2026-11-19"
   },
   {
    "t": "Lucifer's Waltz",
@@ -470,41 +1447,6 @@
    "idea": "Moody dramatic reveal or villain-arc edit.",
    "stat": "~9K a day · up 62%",
    "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Vibin",
-   "a": "Wxoda",
-   "s": "Hip-Hop / Rap",
-   "src": "US #6 · US sounds #9",
-   "moods": [
-    "chill",
-    "playful"
-   ],
-   "e": 3,
-   "vibe": "Easy-going hip-hop beat.",
-   "idea": "Casual day-in-the-life, walk-and-talk clips.",
-   "stat": "~7K a day · up 74%",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "The Blue Danube",
-   "a": "Johann Strauss II (Alessandro Vieri)",
-   "s": "Piano / Cinematic",
-   "src": "US sounds #10 · Reels trending (17–25 Nov)",
-   "moods": [
-    "luxury",
-    "playful"
-   ],
-   "e": 2,
-   "vibe": "Grand classical waltz.",
-   "idea": "Satisfying slow-mo or ironic 'elegant' fail.",
-   "stat": "~5K new videos a day",
-   "kind": "instrumental",
-   "biz": "Best bet for business (instrumental) — check in-app",
-   "platform": "Both",
-   "trend": "Film ordinary tasks like a grand ballet.",
-   "stage": "Rising",
    "seen": "2026-11-19"
   },
   {
@@ -537,69 +1479,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Rockin' Around The Christmas Tree",
-   "a": "Brenda Lee",
-   "s": "Christmas",
-   "src": "CA #2",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Upbeat retro Christmas.",
-   "idea": "Team or shop decorating time-lapse.",
-   "stat": "~2K new videos a day",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Sunset in Girona",
-   "a": "Noah Preminger & Max Light",
-   "s": "Jazz / Lounge",
-   "src": "Metricool #1",
-   "moods": [
-    "romantic",
-    "chill",
-    "luxury"
-   ],
-   "e": 1,
-   "vibe": "Smooth, cosy jazz.",
-   "idea": "Travel or lifestyle clips. Suits black & gold.",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "You're Under Arrest",
-   "a": "ILLIT",
-   "s": "K-Pop",
-   "src": "Revid #2 · TikTok trend",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Cute, catchy K-pop hook.",
-   "idea": "Do the hook in one take, pass it to a mate or coworker.",
-   "stat": "110K videos",
-   "trend": "“You're Under Arrest” challenge: perform the hook, pass it on.",
-   "stage": "Rising",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Self Aware",
-   "a": "Mark Allan Wolfe",
-   "s": "Piano / Cinematic",
-   "src": "Metricool #2",
-   "moods": [
-    "luxury",
-    "chill"
-   ],
-   "e": 2,
-   "vibe": "Hypnotic, mysterious instrumental.",
-   "idea": "Room or desk makeover, night vlog.",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Stolen From Each Other",
    "a": "Nova Charisma",
    "s": "Indie / Acoustic",
@@ -609,36 +1488,8 @@
    ],
    "e": 2,
    "vibe": "Moody, nostalgic alt-indie.",
-   "idea": "Late-night reflective post or lyric video."
-  },
-  {
-   "t": "Time Back",
-   "a": "Sinny & 7vvch",
-   "s": "Electronic / House",
-   "src": "Metricool #3",
-   "moods": [
-    "motivational",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Slow-building atmospheric techno.",
-   "idea": "Build-up then reveal: launch, transformation, results.",
-   "kind": "instrumental",
+   "idea": "Late-night reflective post or lyric video.",
    "seen": "2026-11-19"
-  },
-  {
-   "t": "Angel Of My Dreams",
-   "a": "JADE",
-   "s": "Pop",
-   "src": "US #4 (early Nov)",
-   "moods": [
-    "luxury",
-    "playful"
-   ],
-   "e": 4,
-   "vibe": "Runway pop.",
-   "idea": "Runway walk-in or product 'turn' reveal.",
-   "trend": "Kylie runway hip-pop-and-turn recreations."
   },
   {
    "t": "The Feeling",
@@ -651,19 +1502,7 @@
    ],
    "e": 2,
    "vibe": "Dreamy, bittersweet R&B.",
-   "idea": "Late-night drive or soft-focus day-in-life."
-  },
-  {
-   "t": "Take Me (To The Moon)",
-   "a": "Ian Asher & D A N N Y",
-   "s": "Electronic / House",
-   "src": "Metricool #4",
-   "moods": [
-    "hype"
-   ],
-   "e": 5,
-   "vibe": "Energetic EDM.",
-   "idea": "Fast transitions or light-show edits.",
+   "idea": "Late-night drive or soft-focus day-in-life.",
    "seen": "2026-11-19"
   },
   {
@@ -682,21 +1521,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "The Christmas Song",
-   "a": "Nat King Cole Trio",
-   "s": "Christmas",
-   "src": "Revid #5",
-   "moods": [
-    "chill",
-    "romantic",
-    "luxury"
-   ],
-   "e": 1,
-   "vibe": "Warm, classy vintage Christmas.",
-   "idea": "Slow festive aesthetic: lights, coffee, gift wrapping.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "oh yeah?",
    "a": "Steve Lacy",
    "s": "R&B / Soul",
@@ -707,21 +1531,7 @@
    ],
    "e": 3,
    "vibe": "Laid-back and cheeky.",
-   "idea": "POV skit or 'things nobody tells you about…'."
-  },
-  {
-   "t": "Final Game Showdown",
-   "a": "ProdByLucK",
-   "s": "Piano / Cinematic",
-   "src": "Metricool #5",
-   "moods": [
-    "motivational",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Suspense, last-second tension.",
-   "idea": "Dramatic comeback: 'Day 1 vs Day 31'.",
-   "kind": "instrumental",
+   "idea": "POV skit or 'things nobody tells you about…'.",
    "seen": "2026-11-19"
   },
   {
@@ -767,20 +1577,7 @@
    "e": 1,
    "vibe": "Lounge jazz, soft luxury.",
    "idea": "Workspace, coffee, 'planning my week' aesthetic.",
-   "kind": "instrumental"
-  },
-  {
-   "t": "Le Sable & Les Vagues",
-   "a": "Tengo John",
-   "s": "Hip-Hop / Rap",
-   "src": "Metricool #6",
-   "moods": [
-    "chill",
-    "luxury"
-   ],
-   "e": 2,
-   "vibe": "Mellow French hip-hop.",
-   "idea": "Scenic views, beach or travel edits.",
+   "kind": "instrumental",
    "seen": "2026-11-19"
   },
   {
@@ -798,20 +1595,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Dame Hombro",
-   "a": "Bulin 47",
-   "s": "Latin",
-   "src": "US #7 (early Nov)",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Laid-back shoulder-bounce beat.",
-   "idea": "Quick freestyle bounce with the team or mates.",
-   "trend": "Freestyle shoulder-bounce dance."
-  },
-  {
    "t": "Everything Is Embarrassing",
    "a": "Sky Ferreira",
    "s": "Indie / Acoustic",
@@ -822,21 +1605,7 @@
    ],
    "e": 2,
    "vibe": "Relatable, cringey nostalgia.",
-   "idea": "'My first video vs now' reaction."
-  },
-  {
-   "t": "Take Me Down",
-   "a": "LEL",
-   "s": "Electronic / House",
-   "src": "Metricool #7",
-   "moods": [
-    "chill",
-    "luxury"
-   ],
-   "e": 3,
-   "vibe": "Dreamy house-pop.",
-   "idea": "Travel and aesthetic edits.",
-   "kind": "instrumental",
+   "idea": "'My first video vs now' reaction.",
    "seen": "2026-11-19"
   },
   {
@@ -868,21 +1637,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Too Self Aware",
-   "a": "Star Slinger",
-   "s": "Electronic / House",
-   "src": "Metricool #8",
-   "moods": [
-    "chill",
-    "playful"
-   ],
-   "e": 3,
-   "vibe": "Laid-back house/garage.",
-   "idea": "Outfit reveals or light funny clips.",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Kya Baat Ay",
    "a": "Harrdy Sandhu & Jaani",
    "s": "World",
@@ -897,27 +1651,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Spectacular Moment",
-   "a": "life motivation",
-   "s": "Piano / Cinematic",
-   "src": "Revid viral chart #8",
-   "stat": "In 4 viral videos this month",
-   "moods": [
-    "motivational",
-    "sad"
-   ],
-   "e": 2,
-   "kind": "instrumental",
-   "vibe": "Uplifting motivational backing track.",
-   "idea": "Caption reel over walking/running b-roll: one honest line about where you're at.",
-   "good": [
-    "Caption reel",
-    "Talk-over",
-    "Progress / glow-up"
-   ],
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Man I Need",
    "a": "Olivia Dean",
    "s": "R&B / Soul",
@@ -929,20 +1662,7 @@
    "e": 3,
    "vibe": "Warm, soulful.",
    "idea": "Cafe B-roll or a slow Sunday reset.",
-   "platform": "Both"
-  },
-  {
-   "t": "What More Can I Say",
-   "a": "Teddy Swims",
-   "s": "R&B / Soul",
-   "src": "Metricool #9 · Global chart #19",
-   "moods": [
-    "sad",
-    "romantic"
-   ],
-   "e": 2,
-   "vibe": "Soulful, bluesy, emotional.",
-   "idea": "Personal story or reflection with captions.",
+   "platform": "Both",
    "seen": "2026-11-19"
   },
   {
@@ -958,49 +1678,6 @@
    "vibe": "Dark 90s classic.",
    "idea": "Moody slow-mo walk or serious-face edit.",
    "seen": "2026-11-19"
-  },
-  {
-   "t": "Underneath the Tree",
-   "a": "Kelly Clarkson",
-   "s": "Christmas",
-   "src": "Revid #10",
-   "moods": [
-    "playful",
-    "romantic"
-   ],
-   "e": 4,
-   "vibe": "Big, joyful Christmas pop.",
-   "idea": "Gift reveal or holiday plans montage.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "V-Cut",
-   "a": "Ghetto Baby Boom",
-   "s": "Hip-Hop / Rap",
-   "src": "Metricool #10",
-   "moods": [
-    "hype"
-   ],
-   "e": 5,
-   "vibe": "Raw underground rap.",
-   "idea": "Hard-cut gym or car edit.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "AkpakO Bum Bum",
-   "a": "Terry G",
-   "s": "World",
-   "src": "Global #10",
-   "stat": "Up 62% this week",
-   "moods": [
-    "hype",
-    "playful"
-   ],
-   "e": 5,
-   "vibe": "Chaotic, loud Nigerian street-hop energy.",
-   "idea": "Gym PR attempt, beat drop on the lift.",
-   "seen": "2026-11-19",
-   "new": 1
   },
   {
    "t": "Socadona (Funk Remix)",
@@ -1089,21 +1766,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Piano Hush",
-   "a": "Sid Ferris",
-   "s": "Piano / Cinematic",
-   "src": "Revid viral chart #15",
-   "moods": [
-    "chill",
-    "sad"
-   ],
-   "e": 1,
-   "kind": "instrumental",
-   "vibe": "Quiet, soft piano.",
-   "idea": "Talking-to-camera reflection — sits nicely under your voice.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "The Promise",
    "a": "When In Rome",
    "s": "Pop",
@@ -1132,48 +1794,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Somewhere in Brooklyn",
-   "a": "Bruno Mars",
-   "s": "Pop",
-   "src": "Global chart #17",
-   "moods": [
-    "romantic",
-    "playful"
-   ],
-   "e": 3,
-   "vibe": "Upbeat Bruno storytelling.",
-   "idea": "Storytime of how you met someone or found something.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Mooo!",
-   "a": "Doja Cat",
-   "s": "Hip-Hop / Rap",
-   "src": "Global chart #18",
-   "moods": [
-    "playful"
-   ],
-   "e": 4,
-   "vibe": "Silly meme rap.",
-   "idea": "Pure comedy: pets, mates, chaos.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "donk",
-   "a": "stvrnaudio",
-   "s": "Electronic / House",
-   "src": "Revid viral chart #18",
-   "stat": "8.1M plays",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Bouncy, goofy beat.",
-   "idea": "Funny fast-cut skit or chaotic montage.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Kitchen Flowers",
    "a": "Them & I",
    "s": "Indie / Acoustic",
@@ -1189,20 +1809,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Uska Hi Bana",
-   "a": "Arijit Singh",
-   "s": "World",
-   "src": "Global chart #20",
-   "moods": [
-    "romantic",
-    "sad"
-   ],
-   "e": 2,
-   "vibe": "Emotional Bollywood ballad.",
-   "idea": "Heartfelt montage or slow memories.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Crazy Story, Pt. 3",
    "a": "Booka 600 & King Von",
    "s": "Hip-Hop / Rap",
@@ -1213,20 +1819,6 @@
    "e": 4,
    "vibe": "Storytelling drill.",
    "idea": "Storytime with captions.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "The One That Got Away (Acoustic)",
-   "a": "Katy Perry",
-   "s": "Pop",
-   "src": "Global chart #24",
-   "moods": [
-    "sad",
-    "romantic"
-   ],
-   "e": 2,
-   "vibe": "Stripped-back nostalgia.",
-   "idea": "'What could've been' reflective post.",
    "seen": "2026-11-19"
   },
   {
@@ -1255,20 +1847,6 @@
    "e": 3,
    "vibe": "Folk-pop 'before 30' goals.",
    "idea": "'Things I want to do before 30' list.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "No Type",
-   "a": "Rae Sremmurd",
-   "s": "Hip-Hop / Rap",
-   "src": "Global chart #30",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Swaggy 2010s rap.",
-   "idea": "Fit check or 'I don't have a type' skit.",
    "seen": "2026-11-19"
   },
   {
@@ -1327,20 +1905,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "November Rain",
-   "a": "Guns N' Roses",
-   "s": "Rock",
-   "src": "Global chart #35",
-   "moods": [
-    "sad",
-    "motivational"
-   ],
-   "e": 3,
-   "vibe": "Epic rock ballad.",
-   "idea": "Dramatic slow-mo or moody rainy-day edit.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Ice on My Baby",
    "a": "Yung Bleu",
    "s": "R&B / Soul",
@@ -1365,20 +1929,6 @@
    "e": 4,
    "vibe": "Bougie flex pop.",
    "idea": "'I want it, I got it' wins or haul.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "On The Floor",
-   "a": "Jennifer Lopez & Pitbull",
-   "s": "Pop",
-   "src": "Global chart #41",
-   "moods": [
-    "hype",
-    "playful"
-   ],
-   "e": 5,
-   "vibe": "Party throwback.",
-   "idea": "Party or night-out montage.",
    "seen": "2026-11-19"
   },
   {
@@ -1410,20 +1960,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "QUIERES SER EDITOR (Slowed)",
-   "a": "Launch13",
-   "s": "Slowed & Sped up",
-   "src": "Global chart #44",
-   "moods": [
-    "luxury",
-    "motivational"
-   ],
-   "e": 3,
-   "vibe": "Moody editor sound.",
-   "idea": "Show off an edit: raw clip vs finished edit.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Stuck",
    "a": "LANY",
    "s": "Indie / Acoustic",
@@ -1434,34 +1970,6 @@
    "e": 2,
    "vibe": "Melancholy indie pop.",
    "idea": "'Stuck in a loop' relatable post.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Alors on Danse",
-   "a": "Stromae",
-   "s": "Electronic / House",
-   "src": "Global chart #48",
-   "moods": [
-    "hype",
-    "playful"
-   ],
-   "e": 4,
-   "vibe": "Euro-dance classic.",
-   "idea": "Dance it out after a long day.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "I Get Lonely",
-   "a": "Drake",
-   "s": "Hip-Hop / Rap",
-   "src": "Global chart #49",
-   "moods": [
-    "sad",
-    "chill"
-   ],
-   "e": 2,
-   "vibe": "Late-night R&B-rap.",
-   "idea": "Late-night solo drive.",
    "seen": "2026-11-19"
   },
   {
@@ -1476,20 +1984,6 @@
    "e": 3,
    "vibe": "Resilient power-pop.",
    "idea": "Comeback story: knocked down, got back up.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Fire on Fire",
-   "a": "Sam Smith",
-   "s": "Pop",
-   "src": "Global chart #51",
-   "moods": [
-    "romantic",
-    "sad"
-   ],
-   "e": 2,
-   "vibe": "Tender, cinematic ballad.",
-   "idea": "Couple or family montage.",
    "seen": "2026-11-19"
   },
   {
@@ -1548,38 +2042,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Coming Up Roses",
-   "a": "Harry Styles",
-   "s": "Pop",
-   "src": "Reels trending (17–25 Nov) · Global chart #59",
-   "moods": [
-    "romantic"
-   ],
-   "e": 2,
-   "vibe": "Sweet, swoony romance.",
-   "idea": "'Small wins' montage of your week.",
-   "platform": "Reels",
-   "stage": "Rising",
-   "trend": "Reels: “small wins” montages and candid moments.",
-   "biz": "Major label — likely restricted on business accounts",
-   "stat": "116K videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Iris",
-   "a": "The Goo Goo Dolls",
-   "s": "Rock",
-   "src": "Global chart #60",
-   "moods": [
-    "romantic",
-    "sad"
-   ],
-   "e": 3,
-   "vibe": "Big 90s rock ballad.",
-   "idea": "Nostalgic memories montage.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Sign of the Times",
    "a": "Harry Styles",
    "s": "Pop",
@@ -1591,20 +2053,6 @@
    "e": 2,
    "vibe": "Epic, emotional ballad.",
    "idea": "Big-picture reflection or end-of-year post.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Runaway",
-   "a": "AURORA",
-   "s": "Indie / Acoustic",
-   "src": "Global chart #62",
-   "moods": [
-    "sad",
-    "luxury"
-   ],
-   "e": 2,
-   "vibe": "Ethereal, haunting.",
-   "idea": "Nature or moody aesthetic edits.",
    "seen": "2026-11-19"
   },
   {
@@ -1804,21 +2252,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "PINKY UP",
-   "a": "KATSEYE",
-   "s": "K-Pop",
-   "src": "Revid chart",
-   "moods": [
-    "playful",
-    "hype",
-    "luxury"
-   ],
-   "e": 4,
-   "vibe": "Sassy girl-group pop.",
-   "idea": "'Pinky up' fancy aesthetic: coffee, desk, glam moments.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Pray For Me",
    "a": "The Weeknd & Kendrick Lamar",
    "s": "Hip-Hop / Rap",
@@ -1830,66 +2263,7 @@
    "e": 4,
    "vibe": "Cinematic, dramatic.",
    "idea": "Slow-motion entrance, solo or with the crew.",
-   "trend": "Slow-mo group entrances."
-  },
-  {
-   "t": "Stargazing (Slowed)",
-   "a": "Marcelo De Carvalho",
-   "s": "Slowed & Sped up",
-   "src": "Revid chart",
-   "moods": [
-    "chill",
-    "sad"
-   ],
-   "e": 1,
-   "vibe": "Slowed, floaty.",
-   "idea": "Night-sky or night-drive B-roll.",
-   "stat": "4.2M plays",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Aura Farming (Slowed)",
-   "a": "Mustafa Saboori",
-   "s": "Slowed & Sped up",
-   "src": "Revid chart",
-   "moods": [
-    "luxury",
-    "motivational"
-   ],
-   "e": 2,
-   "vibe": "Cool, calm 'aura' edit sound.",
-   "idea": "Effortless-cool edit: no talking, just presence.",
-   "kind": "instrumental",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "you (super slowed)",
-   "a": "d2s1",
-   "s": "Slowed & Sped up",
-   "src": "Revid chart",
-   "moods": [
-    "sad",
-    "chill"
-   ],
-   "e": 1,
-   "vibe": "Super slowed, heavy feels.",
-   "idea": "Late-night thoughts text post.",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Saxophones getting louder (Sped Up)",
-   "a": "AntonioVivald",
-   "s": "Slowed & Sped up",
-   "src": "Revid chart",
-   "moods": [
-    "playful",
-    "hype"
-   ],
-   "e": 4,
-   "vibe": "Building, comedic sax.",
-   "idea": "Escalating chaos: 'my to-do list as the day goes on'.",
-   "kind": "instrumental",
+   "trend": "Slow-mo group entrances.",
    "seen": "2026-11-19"
   },
   {
@@ -1908,20 +2282,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "Let Go",
-   "a": "Ark Patrol",
-   "s": "Electronic / House",
-   "src": "Revid chart",
-   "moods": [
-    "chill",
-    "sad"
-   ],
-   "e": 2,
-   "vibe": "Floaty, feel-good electronic.",
-   "idea": "Sunset drive or beach day.",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "Guzarish",
    "a": "Satinder Sartaaj",
    "s": "World",
@@ -1932,116 +2292,7 @@
    ],
    "e": 2,
    "vibe": "Soft Punjabi ballad.",
-   "idea": "Calm, heartfelt montage."
-  },
-  {
-   "t": "Christmas Market",
-   "a": "Eoneun",
-   "s": "Christmas",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Rising",
-   "moods": [
-    "chill",
-    "luxury"
-   ],
-   "e": 1,
-   "kind": "instrumental",
-   "platform": "Reels",
-   "vibe": "Soft festive instrumental.",
-   "idea": "Slow walkthrough of the shop's Christmas setup.",
-   "biz": "Best bet for business (instrumental) — check in-app",
-   "stat": "89K videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "November",
-   "a": "Past Day",
-   "s": "Piano / Cinematic",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Rising",
-   "moods": [
-    "chill",
-    "sad"
-   ],
-   "e": 1,
-   "kind": "instrumental",
-   "platform": "Reels",
-   "vibe": "Calm, grey-afternoon instrumental.",
-   "idea": "Cold-water dip, rainy walk or quiet morning reflection.",
-   "biz": "Best bet for business (instrumental) — check in-app",
-   "stat": "142K videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "It's Beginning to Look a Lot like Christmas",
-   "a": "Michael Bublé",
-   "s": "Christmas",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Peak",
-   "moods": [
-    "playful",
-    "romantic"
-   ],
-   "e": 3,
-   "platform": "Reels",
-   "vibe": "Classic festive crooner.",
-   "idea": "Decorating time-lapse of the store or your room.",
-   "biz": "Major label — likely restricted on business accounts",
-   "stat": "1.8M videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "I Knew It, I Knew You",
-   "a": "Taylor Swift",
-   "s": "Pop",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Peak",
-   "moods": [
-    "romantic",
-    "chill"
-   ],
-   "e": 3,
-   "platform": "Reels",
-   "vibe": "Warm Taylor pop.",
-   "idea": "Morning routine at a café ending on a candid laugh.",
-   "biz": "Major label — likely restricted on business accounts",
-   "stat": "275K videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "BEAUTY AND A BEAT X COLA (ALTÉGO MIX)",
-   "a": "altego_music",
-   "s": "Electronic / House",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Peak",
-   "moods": [
-    "hype",
-    "playful"
-   ],
-   "e": 5,
-   "platform": "Reels",
-   "vibe": "Mashup party mix.",
-   "idea": "Reveal or before/after on the drop.",
-   "trend": "Reels: reveals, fitness Black Friday codes, teasers.",
-   "stat": "674K videos",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "Mr. Brightside",
-   "a": "The Killers",
-   "s": "Rock",
-   "src": "Reels trending (17–25 Nov)",
-   "stage": "Peak",
-   "moods": [
-    "hype",
-    "motivational"
-   ],
-   "e": 5,
-   "platform": "Reels",
-   "vibe": "Anthemic indie-rock singalong.",
-   "idea": "Workout build-up or season recap montage.",
-   "biz": "Major label — likely restricted on business accounts",
-   "stat": "102K videos",
+   "idea": "Calm, heartfelt montage.",
    "seen": "2026-11-19"
   },
   {
@@ -2081,24 +2332,6 @@
    "seen": "2026-11-19"
   },
   {
-   "t": "“I feel like I haven't done much this year”",
-   "a": "Original audio",
-   "s": "Trend sound",
-   "src": "TikTok trend (HeyOrca, 13 Nov)",
-   "moods": [
-    "motivational",
-    "sad"
-   ],
-   "e": 2,
-   "kind": "original",
-   "platform": "TikTok",
-   "vibe": "Reflective year-recap audio.",
-   "idea": "'Random day in [month]' clips of your 2026: 31 Hard, first posts, wins.",
-   "trend": "Year look-back: clips labelled “random day in [month]”.",
-   "search": "I feel like I haven't done much this year",
-   "seen": "2026-11-19"
-  },
-  {
    "t": "“Trying to explain”",
    "a": "Original audio",
    "s": "Trend sound",
@@ -2113,44 +2346,6 @@
    "idea": "Things people assume you've already done (but you keep putting off).",
    "trend": "Poke fun at things you keep putting off that people expect you've done.",
    "search": "trying to explain sound",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "“You Paid Me No Mind”",
-   "a": "Original audio (Heaven)",
-   "s": "Trend sound",
-   "src": "TikTok trend · ~241K videos",
-   "moods": [
-    "playful"
-   ],
-   "e": 3,
-   "kind": "original",
-   "platform": "TikTok",
-   "vibe": "Dramatic 'ignored' lip-sync.",
-   "idea": "When customers walk straight past the new product display.",
-   "trend": "Lip-sync to being ignored; shops use it for products people walk past.",
-   "search": "you paid me no mind sound",
-   "stat": "241K videos",
-   "stage": "Peak",
-   "seen": "2026-11-19"
-  },
-  {
-   "t": "“Camera Shy”",
-   "a": "Original audio (Niki)",
-   "s": "Trend sound",
-   "src": "TikTok trend · ~197K videos, rising",
-   "stage": "Rising",
-   "moods": [
-    "playful"
-   ],
-   "e": 3,
-   "kind": "original",
-   "platform": "TikTok",
-   "vibe": "Bouncy 'tsundere' audio.",
-   "idea": "Pretend to be camera-shy, then give in and go for it.",
-   "trend": "Someone (often a pet) acts grumpy at the camera, then gives in and dances.",
-   "search": "camera shy tsundere sound",
-   "stat": "197K videos",
    "seen": "2026-11-19"
   }
  ]
